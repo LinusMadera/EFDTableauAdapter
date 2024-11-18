@@ -138,6 +138,20 @@ def create_connection(host, user, password, database="master"):  # Default to ma
         print(f"Error: {e}")
         return None
 
+def headless_data_from_excel(df):
+     # Copy the data (good practice)
+    df = df.copy()
+
+    # Drop the first 3 rows
+    new_header = df.iloc[3]
+    df = df.iloc[4:].reset_index(drop = True)
+    df.columns = new_header
+    
+    # Drop the first column
+    df.drop(columns = df.columns[0], axis = 1, inplace = True)
+    
+    return df
+
 def insert_data_from_excel(file_path, connection):
     if not connection:
         return False
@@ -145,7 +159,8 @@ def insert_data_from_excel(file_path, connection):
     try:
         df = pd.read_excel(file_path)
         cursor = connection.cursor()
-
+        headless = headless_data_from_excel(df)
+        
         # Insert languages (Portuguese as default)
         cursor.execute("""
             IF NOT EXISTS (SELECT 1 FROM Language WHERE Id = 1)
@@ -177,7 +192,7 @@ def insert_data_from_excel(file_path, connection):
             """, (i, i, area))
 
         # Insert Years
-        years = df['Year'].unique()
+        years = headless['Year'].dropna().unique()
         for i, year in enumerate(years, 1):
             cursor.execute("""
                 IF NOT EXISTS (SELECT 1 FROM Year WHERE Id = ?)
@@ -185,7 +200,7 @@ def insert_data_from_excel(file_path, connection):
             """, (i, i, int(year)))
 
         # Insert Regions and Countries
-        regions = df['World Bank Region'].unique()
+        regions = headless['World Bank Region'].unique()
         for i, region in enumerate(regions, 1):
             cursor.execute("""
                 IF NOT EXISTS (SELECT 1 FROM Region WHERE Id = ?)
@@ -198,7 +213,7 @@ def insert_data_from_excel(file_path, connection):
             """, (i, i, 1, i, f"{region} (PT)"))
 
         # Insert Countries
-        for i, row in df.iterrows():
+        for i, row in headless.iterrows():
             cursor.execute("""
                 IF NOT EXISTS (SELECT 1 FROM Country WHERE Id = ?)
                 INSERT INTO Country (Id, ISOCode, country)
@@ -229,14 +244,19 @@ def insert_data_from_excel(file_path, connection):
             """, (i, i, i, 1, f"{col} (PT)"))
 
         # Insert data values
-        for i, row in df.iterrows():
+        for i, row in headless.iterrows():
             for j, col in enumerate(research_columns, 1):
                 if pd.notna(row[col]):
-                    cursor.execute("""
-                        IF NOT EXISTS (SELECT 1 FROM YearIsoResearch WHERE Id = ?)
-                        INSERT INTO YearIsoResearch (Id, ResearchId, indexValue, YearStateId)
-                        VALUES (?, ?, ?, ?)
-                    """, (i*100+j, i*100+j, j, float(row[col]), i+1))
+                    try:
+                        value = float(row[col])
+                        cursor.execute("""
+                            IF NOT EXISTS (SELECT 1 FROM YearIsoResearch WHERE Id = ?)
+                            INSERT INTO YearIsoResearch (Id, ResearchId, indexValue, YearStateId)
+                            VALUES (?, ?, ?, ?)
+                        """, (i*100+j, j, value, i+1))
+                    except (ValueError, TypeError):
+                        print(f"Warning: Skipping invalid value in row {i+1}, column '{col}': {row[col]}")
+                        continue
 
         connection.commit()
         return True

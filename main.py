@@ -315,15 +315,23 @@ class CombinedManagerGUI:
                 connection = create_connection(
                     host="localhost",
                     user="sa",
-                    password="TableauAdmin2023!"                )
+                    password="TableauAdmin2023!"
+                )
                 
                 if connection:
-                    if insert_data_from_excel(self.excel_file_path, connection):
-                        messagebox.showinfo("Sucesso", TRANSLATIONS['excel_import_success'])
-                        self.add_detail("Dados importados com sucesso!")
-                    else:
-                        messagebox.showerror("Erro", TRANSLATIONS['excel_import_error'].format("Falha na importação"))
-                    connection.close()
+                    # Add error handling and data validation before insertion
+                    try:
+                        if insert_data_from_excel(self.excel_file_path, connection):
+                            messagebox.showinfo("Sucesso", TRANSLATIONS['excel_import_success'])
+                            self.add_detail("Dados importados com sucesso!")
+                        else:
+                            messagebox.showerror("Erro", TRANSLATIONS['excel_import_error'].format("Falha na importação"))
+                    except Exception as e:
+                        # Log the specific error for debugging
+                        self.add_detail(f"Erro na importação: {str(e)}")
+                        messagebox.showerror("Erro", f"Erro específico na importação: {str(e)}")
+                    finally:
+                        connection.close()
                 else:
                     messagebox.showerror("Erro", "Não foi possível conectar ao banco de dados")
             except Exception as e:
