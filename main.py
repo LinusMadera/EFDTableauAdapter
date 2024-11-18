@@ -15,7 +15,7 @@ from sql_queries import create_connection, insert_data_from_excel
 
 # Translations dictionary
 TRANSLATIONS = {
-    'title': 'Gerenciador SQL Server',
+    'title': 'Programa de Importação de Dados para Liberdade Econômica',
     'system_status': 'Status do Sistema',
     'connection_info': 'Informações de Conexão',
     'start_sql': 'Iniciar SQL Server',
@@ -115,16 +115,15 @@ class CombinedManagerGUI:
         self.start_button = ttk.Button(button_frame, text="1. " + TRANSLATIONS['start_sql'], command=self.start_thread)
         self.start_button.pack(fill="x", pady=5)
         
-        self.stop_button = ttk.Button(button_frame, text="2. " + TRANSLATIONS['stop_sql'], command=self.stop_thread)
-        self.stop_button.pack(fill="x", pady=5)
-        
-        # Excel file selection and import buttons
-        self.select_file_button = ttk.Button(button_frame, text="3. " + TRANSLATIONS['select_excel'], command=self.select_excel_file)
+        self.select_file_button = ttk.Button(button_frame, text="2. " + TRANSLATIONS['select_excel'], command=self.select_excel_file)
         self.select_file_button.pack(fill="x", pady=5)
         
-        self.import_button = ttk.Button(button_frame, text="4. " + TRANSLATIONS['import_data'], command=self.import_excel_data)
+        self.import_button = ttk.Button(button_frame, text="3. " + TRANSLATIONS['import_data'], command=self.import_excel_data)
         self.import_button.pack(fill="x", pady=5)
         self.import_button.config(state="disabled")
+        
+        self.stop_button = ttk.Button(button_frame, text="4. " + TRANSLATIONS['stop_sql'], command=self.stop_thread)
+        self.stop_button.pack(fill="x", pady=5)
         
         # Exit button
         ttk.Button(button_frame, text="5. " + TRANSLATIONS['exit'], command=self.root.quit).pack(fill="x", pady=5)
