@@ -79,7 +79,7 @@ class CombinedManagerGUI:
     def __init__(self):
         self.root = tk.Tk()
         self.root.title(TRANSLATIONS['title'])
-        self.root.geometry("550x700")
+        self.root.geometry("800x900")  # Increased window size
         self.root.configure(bg="#ffffff")
         
         # Configure style
@@ -112,26 +112,22 @@ class CombinedManagerGUI:
         button_frame.pack(fill="x", pady=10)
         
         # SQL Server control buttons
-        self.start_button = ttk.Button(button_frame, text=TRANSLATIONS['start_sql'], command=self.start_thread)
-        self.start_button.pack(side="left", padx=5)
+        self.start_button = ttk.Button(button_frame, text="1. " + TRANSLATIONS['start_sql'], command=self.start_thread)
+        self.start_button.pack(fill="x", pady=5)
         
-        self.stop_button = ttk.Button(button_frame, text=TRANSLATIONS['stop_sql'], command=self.stop_thread)
-        self.stop_button.pack(side="left", padx=5)
+        self.stop_button = ttk.Button(button_frame, text="2. " + TRANSLATIONS['stop_sql'], command=self.stop_thread)
+        self.stop_button.pack(fill="x", pady=5)
         
         # Excel file selection and import buttons
-        self.select_file_button = ttk.Button(button_frame, text=TRANSLATIONS['select_excel'], command=self.select_excel_file)
-        self.select_file_button.pack(side="left", padx=5)
+        self.select_file_button = ttk.Button(button_frame, text="3. " + TRANSLATIONS['select_excel'], command=self.select_excel_file)
+        self.select_file_button.pack(fill="x", pady=5)
         
-        self.import_button = ttk.Button(button_frame, text=TRANSLATIONS['import_data'], command=self.import_excel_data)
-        self.import_button.pack(side="left", padx=5)
+        self.import_button = ttk.Button(button_frame, text="4. " + TRANSLATIONS['import_data'], command=self.import_excel_data)
+        self.import_button.pack(fill="x", pady=5)
         self.import_button.config(state="disabled")
         
-        # Docker installation button
-        self.install_button = ttk.Button(button_frame, text=TRANSLATIONS['install_docker'], command=self.install_thread)
-        self.install_button.pack(side="left", padx=5)
-        
         # Exit button
-        ttk.Button(button_frame, text=TRANSLATIONS['exit'], command=self.root.quit).pack(side="right", padx=5)
+        ttk.Button(button_frame, text="5. " + TRANSLATIONS['exit'], command=self.root.quit).pack(fill="x", pady=5)
         
         # Details section
         ttk.Label(self.sql_frame, text=TRANSLATIONS['connection_info'], style="Header.TLabel").pack(anchor="w", pady=(20, 5))
@@ -164,14 +160,12 @@ class CombinedManagerGUI:
                     style="Success.TLabel"
                 )
                 self.add_detail("Docker detectado e em execução.")
-                self.install_button.config(state="disabled")
             else:
                 self.docker_status.config(
                     text=TRANSLATIONS['docker_not_running'],
                     style="Error.TLabel"
                 )
                 self.add_detail("Docker instalado mas não está em execução.")
-                self.install_button.config(state="disabled")
                 messagebox.showwarning(
                     TRANSLATIONS['warning'],
                     "Docker não está em execução. Por favor, inicie o Docker Desktop."
@@ -182,8 +176,6 @@ class CombinedManagerGUI:
                 style="Error.TLabel"
             )
             self.add_detail("Docker não encontrado no sistema.")
-            self.install_button.config(state="normal")
-
         self.check_sqlserver_status()
 
     def check_sqlserver_status(self):
@@ -264,42 +256,6 @@ class CombinedManagerGUI:
         thread = threading.Thread(target=stop_sqlserver)
         thread.daemon = True
         thread.start()
-
-    def install_thread(self):
-        def install_docker():
-            self.install_button.config(state="disabled")
-            try:
-                installer_path = self.download_docker_installer()
-                self.add_detail(TRANSLATIONS['installing_docker'])
-
-                subprocess.run([installer_path, "install", "--quiet"], check=True)
-                self.add_detail(TRANSLATIONS['docker_install_complete'])
-
-                os.remove(installer_path)
-                self.check_system_status()
-
-            except Exception as e:
-                self.add_detail(TRANSLATIONS['docker_install_error'].format(e))
-                messagebox.showerror(TRANSLATIONS['error'], TRANSLATIONS['docker_install_error'].format(e))
-                self.install_button.config(state="normal")
-
-        thread = threading.Thread(target=install_docker)
-        thread.daemon = True
-        thread.start()
-
-    def download_docker_installer(self):
-        self.add_detail(TRANSLATIONS['download_docker'])
-        url = "https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe"
-        installer_path = os.path.join(os.environ["TEMP"], "DockerDesktopInstaller.exe")
-
-        response = requests.get(url, stream=True)
-        response.raise_for_status()
-
-        with open(installer_path, "wb") as f:
-            for chunk in response.iter_content(chunk_size=8192):
-                f.write(chunk)
-
-        return installer_path
 
     def select_excel_file(self):
         self.excel_file_path = filedialog.askopenfilename(
@@ -392,11 +348,11 @@ def check_and_install_docker():
 
     def download_docker():
         docker_url = "https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe"
-        installer_path = os.path.join(os.environ["TEMP"], "DockerInstaller.exe")
+        installer_path = os.path.join(os.environ["TEMP"], "DockerDesktopInstaller.exe")
         
         print("Downloading Docker Desktop installer...")
         response = requests.get(docker_url, stream=True)
-        with open(installer_path, 'wb') as f:
+        with open(installer_path, "wb") as f:
             for chunk in response.iter_content(chunk_size=8192):
                 f.write(chunk)
         return installer_path
