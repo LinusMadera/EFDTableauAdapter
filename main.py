@@ -24,6 +24,7 @@ def transform_csv(input_file, output_file):
         ('1E', 'State ownership of Assets', 'State ownership of Assets'),
         ('1B', 'Transfers and subsidies', 'Transfers and subsidies'),
         ('1C', 'Government investment', 'Government investment'),
+        ('5Cvi', 'Tax compliance', 'Tax compliance'),
         ('1D', 'Top marginal income tax rate', 'S'),
         ('Area1', 'Size of Government', 'V'),
         ('N', 'Economic Freedom Summary Index', ' Economic Freedom Summary Index'),
