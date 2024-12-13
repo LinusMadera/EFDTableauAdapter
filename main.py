@@ -1,9 +1,33 @@
 import pandas as pd
 import numpy as np
 
+# Load both CSV files, skipping initial empty rows
+df_areas = pd.read_csv('areas.csv')
+df_metrics = pd.read_csv('csvsample.csv', skiprows=4)  # Skip the first 4 rows to get to the actual headers
+
+# Clean up the areas dataframe column names
+df_areas.columns = df_areas.columns.str.strip()
+
+# Ensure we have matching Year and Country columns for merging
+df_metrics['Year'] = pd.to_numeric(df_metrics['Year'], errors='coerce')
+df_areas['Year'] = pd.to_numeric(df_areas['Year'], errors='coerce')
+
+# Merge the dataframes on Year and Country
+# We'll use the ISO_Code for matching since it's more reliable than country names
+df_combined = pd.merge(
+    df_metrics,
+    df_areas[['ISO_Code', 'Year', 'Area 1', 'Area 2', 'Area 3', 'Area 4', 'Area 5']],
+    left_on=['ISO Code 3', 'Year'],
+    right_on=['ISO_Code', 'Year'],
+    how='left'
+)
+
+# Now df_combined has both the detailed metrics and all Area values from areas.csv
+# We can use df_combined['Area 1'] through df_combined['Area 5'] instead of calculating them from components
+
 def transform_csv(input_file, output_file):
     # Read the main data, skipping header rows
-    df = pd.read_csv(input_file, skiprows=4)
+    df = df_combined
     
     # Create dataframes - one for each metric
     dataframes = []
@@ -25,9 +49,12 @@ def transform_csv(input_file, output_file):
         ('1E', 'State ownership of Assets', 'State ownership of Assets'),
         ('1B', 'Transfers and subsidies', 'Transfers and subsidies'),
         ('1C', 'Government investment', 'Government investment'),
-        # ('5Cvi', 'Tax compliance', 'Tax compliance'),
         ('1D', 'Top marginal income tax rate', 'S'),
-        ('Area1', 'Size of Government', 'V'),
+        ('Area1', 'Size of Government', 'Area 1'),
+        ('Area2', 'Legal System And Property Rights', 'Area 2'),
+        ('Area3', 'Sound Money', 'Area 3'),
+        ('Area4', 'Freedom to trade internationally', 'Area 4'),
+        ('Area5', 'Regulation', 'Area 5'),
         ('5Civ', 'Tax compliance', 74),  # Using column index (76-1 because 0-based)
         ('N', 'Economic Freedom Summary Index', ' Economic Freedom Summary Index'),
         ('N', 'Rank', 'Rank'),

@@ -1,81 +1,138 @@
 Year,ISO Code 2,ISO Code 3,Countries, Economic Freedom Summary Index,Rank,Quartile,Research ID,Research,Index - Continuous
 1970,AL,ALB,Albania,,,,1E,State ownership of Assets,0.19
+1970,AL,ALB,Albania,,,,Area2,Legal System And Property Rights,6.21
 1970,DZ,DZA,Algeria,4.06,90.0,4.0,1C,Government investment,7.32
 1970,DZ,DZA,Algeria,4.06,90.0,4.0,1E,State ownership of Assets,2.48
-1970,DZ,DZA,Algeria,4.06,90.0,4.0,Area1,Size of Government,86.0
+1970,DZ,DZA,Algeria,4.06,90.0,4.0,Area1,Size of Government,6.89
+1970,DZ,DZA,Algeria,4.06,90.0,4.0,Area2,Legal System And Property Rights,3.43
+1970,DZ,DZA,Algeria,4.06,90.0,4.0,Area3,Sound Money,6.44
+1970,DZ,DZA,Algeria,4.06,90.0,4.0,Area5,Regulation,3.44
 1970,DZ,DZA,Algeria,4.06,90.0,4.0,N,Economic Freedom Summary Index,4.06
 1970,DZ,DZA,Algeria,4.06,90.0,4.0,N,Rank,90.0
 1970,DZ,DZA,Algeria,4.06,90.0,4.0,N,Quartile,4.0
 1970,AO,AGO,Angola,,,,1E,State ownership of Assets,3.15
+1970,AO,AGO,Angola,,,,Area2,Legal System And Property Rights,2.51
 1970,AR,ARG,Argentina,5.65,54.0,3.0,1E,State ownership of Assets,6.04
-1970,AR,ARG,Argentina,5.65,54.0,3.0,Area1,Size of Government,44.0
+1970,AR,ARG,Argentina,5.65,54.0,3.0,Area1,Size of Government,6.69
+1970,AR,ARG,Argentina,5.65,54.0,3.0,Area2,Legal System And Property Rights,3.39
+1970,AR,ARG,Argentina,5.65,54.0,3.0,Area3,Sound Money,7.73
+1970,AR,ARG,Argentina,5.65,54.0,3.0,Area5,Regulation,2.81
 1970,AR,ARG,Argentina,5.65,54.0,3.0,N,Economic Freedom Summary Index,5.65
 1970,AR,ARG,Argentina,5.65,54.0,3.0,N,Rank,54.0
 1970,AR,ARG,Argentina,5.65,54.0,3.0,N,Quartile,3.0
 1970,AU,AUS,Australia,7.89,8.0,1.0,1C,Government investment,10.0
 1970,AU,AUS,Australia,7.89,8.0,1.0,1E,State ownership of Assets,7.42
-1970,AU,AUS,Australia,7.89,8.0,1.0,Area1,Size of Government,15.0
+1970,AU,AUS,Australia,7.89,8.0,1.0,Area1,Size of Government,6.78
+1970,AU,AUS,Australia,7.89,8.0,1.0,Area2,Legal System And Property Rights,8.4
+1970,AU,AUS,Australia,7.89,8.0,1.0,Area3,Sound Money,9.58
+1970,AU,AUS,Australia,7.89,8.0,1.0,Area4,Freedom to trade internationally,6.5
+1970,AU,AUS,Australia,7.89,8.0,1.0,Area5,Regulation,5.38
 1970,AU,AUS,Australia,7.89,8.0,1.0,N,Economic Freedom Summary Index,7.89
 1970,AU,AUS,Australia,7.89,8.0,1.0,N,Rank,8.0
 1970,AU,AUS,Australia,7.89,8.0,1.0,N,Quartile,1.0
 1970,AT,AUT,Austria,6.83,23.0,1.0,1B,Transfers and subsidies,6.07
 1970,AT,AUT,Austria,6.83,23.0,1.0,1C,Government investment,7.82
 1970,AT,AUT,Austria,6.83,23.0,1.0,1E,State ownership of Assets,4.79
-1970,AT,AUT,Austria,6.83,23.0,1.0,Area1,Size of Government,67.0
+1970,AT,AUT,Austria,6.83,23.0,1.0,Area1,Size of Government,5.28
+1970,AT,AUT,Austria,6.83,23.0,1.0,Area2,Legal System And Property Rights,6.74
+1970,AT,AUT,Austria,6.83,23.0,1.0,Area3,Sound Money,8.38
+1970,AT,AUT,Austria,6.83,23.0,1.0,Area4,Freedom to trade internationally,6.78
+1970,AT,AUT,Austria,6.83,23.0,1.0,Area5,Regulation,4.96
 1970,AT,AUT,Austria,6.83,23.0,1.0,N,Economic Freedom Summary Index,6.83
 1970,AT,AUT,Austria,6.83,23.0,1.0,N,Rank,23.0
 1970,AT,AUT,Austria,6.83,23.0,1.0,N,Quartile,1.0
 1970,BS,BHS,"Bahamas, The",,,,1B,Transfers and subsidies,9.75
+1970,BS,BHS,"Bahamas, The",,,,Area3,Sound Money,6.98
+1970,BS,BHS,"Bahamas, The",,,,Area4,Freedom to trade internationally,4.58
 1970,BH,BHR,Bahrain,,,,1E,State ownership of Assets,4.02
+1970,BH,BHR,Bahrain,,,,Area2,Legal System And Property Rights,4.85
+1970,BH,BHR,Bahrain,,,,Area3,Sound Money,10.0
+1970,BH,BHR,Bahrain,,,,Area5,Regulation,8.01
+1970,BD,BGD,Bangladesh,,,,Area2,Legal System And Property Rights,2.24
+1970,BD,BGD,Bangladesh,,,,Area3,Sound Money,10.0
 1970,BB,BRB,Barbados,7.95,5.0,1.0,1B,Transfers and subsidies,9.34
 1970,BB,BRB,Barbados,7.95,5.0,1.0,1E,State ownership of Assets,6.9
-1970,BB,BRB,Barbados,7.95,5.0,1.0,Area1,Size of Government,19.0
+1970,BB,BRB,Barbados,7.95,5.0,1.0,Area1,Size of Government,5.92
+1970,BB,BRB,Barbados,7.95,5.0,1.0,Area2,Legal System And Property Rights,5.55
+1970,BB,BRB,Barbados,7.95,5.0,1.0,Area3,Sound Money,6.47
+1970,BB,BRB,Barbados,7.95,5.0,1.0,Area5,Regulation,6.98
 1970,BB,BRB,Barbados,7.95,5.0,1.0,N,Economic Freedom Summary Index,7.95
 1970,BB,BRB,Barbados,7.95,5.0,1.0,N,Rank,5.0
 1970,BB,BRB,Barbados,7.95,5.0,1.0,N,Quartile,1.0
 1970,BE,BEL,Belgium,7.75,12.0,1.0,1B,Transfers and subsidies,4.48
 1970,BE,BEL,Belgium,7.75,12.0,1.0,1C,Government investment,10.0
 1970,BE,BEL,Belgium,7.75,12.0,1.0,1E,State ownership of Assets,7.58
-1970,BE,BEL,Belgium,7.75,12.0,1.0,Area1,Size of Government,40.0
+1970,BE,BEL,Belgium,7.75,12.0,1.0,Area1,Size of Government,5.93
+1970,BE,BEL,Belgium,7.75,12.0,1.0,Area2,Legal System And Property Rights,5.41
+1970,BE,BEL,Belgium,7.75,12.0,1.0,Area3,Sound Money,9.64
+1970,BE,BEL,Belgium,7.75,12.0,1.0,Area4,Freedom to trade internationally,9.07
+1970,BE,BEL,Belgium,7.75,12.0,1.0,Area5,Regulation,5.68
 1970,BE,BEL,Belgium,7.75,12.0,1.0,N,Economic Freedom Summary Index,7.75
 1970,BE,BEL,Belgium,7.75,12.0,1.0,N,Rank,12.0
 1970,BE,BEL,Belgium,7.75,12.0,1.0,N,Quartile,1.0
+1970,BZ,BLZ,Belize,,,,Area3,Sound Money,6.97
 1970,BJ,BEN,Benin,5.32,61.0,3.0,1E,State ownership of Assets,5.29
-1970,BJ,BEN,Benin,5.32,61.0,3.0,Area1,Size of Government,42.0
+1970,BJ,BEN,Benin,5.32,61.0,3.0,Area1,Size of Government,4.95
+1970,BJ,BEN,Benin,5.32,61.0,3.0,Area2,Legal System And Property Rights,2.18
+1970,BJ,BEN,Benin,5.32,61.0,3.0,Area3,Sound Money,6.74
+1970,BJ,BEN,Benin,5.32,61.0,3.0,Area5,Regulation,5.02
 1970,BJ,BEN,Benin,5.32,61.0,3.0,N,Economic Freedom Summary Index,5.32
 1970,BJ,BEN,Benin,5.32,61.0,3.0,N,Rank,61.0
 1970,BJ,BEN,Benin,5.32,61.0,3.0,N,Quartile,3.0
 1970,BT,BTN,Bhutan,,,,1E,State ownership of Assets,4.24
+1970,BT,BTN,Bhutan,,,,Area2,Legal System And Property Rights,5.78
 1970,BO,BOL,Bolivia,4.94,72.0,3.0,1B,Transfers and subsidies,9.88
 1970,BO,BOL,Bolivia,4.94,72.0,3.0,1E,State ownership of Assets,5.2
-1970,BO,BOL,Bolivia,4.94,72.0,3.0,Area1,Size of Government,25.0
+1970,BO,BOL,Bolivia,4.94,72.0,3.0,Area1,Size of Government,6.39
+1970,BO,BOL,Bolivia,4.94,72.0,3.0,Area2,Legal System And Property Rights,2.15
+1970,BO,BOL,Bolivia,4.94,72.0,3.0,Area3,Sound Money,9.34
+1970,BO,BOL,Bolivia,4.94,72.0,3.0,Area4,Freedom to trade internationally,2.99
+1970,BO,BOL,Bolivia,4.94,72.0,3.0,Area5,Regulation,1.3
 1970,BO,BOL,Bolivia,4.94,72.0,3.0,N,Economic Freedom Summary Index,4.94
 1970,BO,BOL,Bolivia,4.94,72.0,3.0,N,Rank,72.0
 1970,BO,BOL,Bolivia,4.94,72.0,3.0,N,Quartile,3.0
 1970,BW,BWA,Botswana,7.44,13.0,1.0,1B,Transfers and subsidies,9.74
 1970,BW,BWA,Botswana,7.44,13.0,1.0,1E,State ownership of Assets,5.6
-1970,BW,BWA,Botswana,7.44,13.0,1.0,Area1,Size of Government,45.0
+1970,BW,BWA,Botswana,7.44,13.0,1.0,Area1,Size of Government,4.48
+1970,BW,BWA,Botswana,7.44,13.0,1.0,Area2,Legal System And Property Rights,4.36
+1970,BW,BWA,Botswana,7.44,13.0,1.0,Area3,Sound Money,7.87
+1970,BW,BWA,Botswana,7.44,13.0,1.0,Area5,Regulation,4.53
 1970,BW,BWA,Botswana,7.44,13.0,1.0,N,Economic Freedom Summary Index,7.44
 1970,BW,BWA,Botswana,7.44,13.0,1.0,N,Rank,13.0
 1970,BW,BWA,Botswana,7.44,13.0,1.0,N,Quartile,1.0
 1970,BR,BRA,Brazil,4.83,76.0,4.0,1B,Transfers and subsidies,5.93
 1970,BR,BRA,Brazil,4.83,76.0,4.0,1D,Top marginal income tax rate,7.0
 1970,BR,BRA,Brazil,4.83,76.0,4.0,1E,State ownership of Assets,5.81
-1970,BR,BRA,Brazil,4.83,76.0,4.0,Area1,Size of Government,52.0
+1970,BR,BRA,Brazil,4.83,76.0,4.0,Area1,Size of Government,6.03
+1970,BR,BRA,Brazil,4.83,76.0,4.0,Area2,Legal System And Property Rights,3.71
+1970,BR,BRA,Brazil,4.83,76.0,4.0,Area3,Sound Money,5.89
+1970,BR,BRA,Brazil,4.83,76.0,4.0,Area4,Freedom to trade internationally,1.64
+1970,BR,BRA,Brazil,4.83,76.0,4.0,Area5,Regulation,4.27
 1970,BR,BRA,Brazil,4.83,76.0,4.0,N,Economic Freedom Summary Index,4.83
 1970,BR,BRA,Brazil,4.83,76.0,4.0,N,Rank,76.0
 1970,BR,BRA,Brazil,4.83,76.0,4.0,N,Quartile,4.0
 1970,BG,BGR,Bulgaria,,,,1E,State ownership of Assets,0.25
+1970,BG,BGR,Bulgaria,,,,Area2,Legal System And Property Rights,5.3
+1970,BG,BGR,Bulgaria,,,,Area5,Regulation,3.8
 1970,BF,BFA,Burkina Faso,,,,1E,State ownership of Assets,4.24
+1970,BF,BFA,Burkina Faso,,,,Area2,Legal System And Property Rights,2.53
 1970,BI,BDI,Burundi,5.38,60.0,3.0,1E,State ownership of Assets,6.22
-1970,BI,BDI,Burundi,5.38,60.0,3.0,Area1,Size of Government,26.0
+1970,BI,BDI,Burundi,5.38,60.0,3.0,Area1,Size of Government,6.87
+1970,BI,BDI,Burundi,5.38,60.0,3.0,Area2,Legal System And Property Rights,2.55
+1970,BI,BDI,Burundi,5.38,60.0,3.0,Area3,Sound Money,6.63
+1970,BI,BDI,Burundi,5.38,60.0,3.0,Area5,Regulation,3.56
 1970,BI,BDI,Burundi,5.38,60.0,3.0,N,Economic Freedom Summary Index,5.38
 1970,BI,BDI,Burundi,5.38,60.0,3.0,N,Rank,60.0
 1970,BI,BDI,Burundi,5.38,60.0,3.0,N,Quartile,3.0
 1970,CV,CPV,Cabo Verde,,,,1E,State ownership of Assets,1.19
+1970,CV,CPV,Cabo Verde,,,,Area2,Legal System And Property Rights,3.03
 1970,KH,KHM,Cambodia,,,,1E,State ownership of Assets,5.67
+1970,KH,KHM,Cambodia,,,,Area2,Legal System And Property Rights,4.22
 1970,CM,CMR,Cameroon,4.38,84.0,4.0,1E,State ownership of Assets,4.91
-1970,CM,CMR,Cameroon,4.38,84.0,4.0,Area1,Size of Government,62.0
+1970,CM,CMR,Cameroon,4.38,84.0,4.0,Area1,Size of Government,5.02
+1970,CM,CMR,Cameroon,4.38,84.0,4.0,Area2,Legal System And Property Rights,2.64
+1970,CM,CMR,Cameroon,4.38,84.0,4.0,Area3,Sound Money,5.84
+1970,CM,CMR,Cameroon,4.38,84.0,4.0,Area5,Regulation,4.22
 1970,CM,CMR,Cameroon,4.38,84.0,4.0,N,Economic Freedom Summary Index,4.38
 1970,CM,CMR,Cameroon,4.38,84.0,4.0,N,Rank,84.0
 1970,CM,CMR,Cameroon,4.38,84.0,4.0,N,Quartile,4.0
@@ -83,63 +140,105 @@ Year,ISO Code 2,ISO Code 3,Countries, Economic Freedom Summary Index,Rank,Quarti
 1970,CA,CAN,Canada,8.1,3.0,1.0,1C,Government investment,7.98
 1970,CA,CAN,Canada,8.1,3.0,1.0,1D,Top marginal income tax rate,0.0
 1970,CA,CAN,Canada,8.1,3.0,1.0,1E,State ownership of Assets,7.36
-1970,CA,CAN,Canada,8.1,3.0,1.0,Area1,Size of Government,80.0
+1970,CA,CAN,Canada,8.1,3.0,1.0,Area1,Size of Government,5.38
+1970,CA,CAN,Canada,8.1,3.0,1.0,Area2,Legal System And Property Rights,8.23
+1970,CA,CAN,Canada,8.1,3.0,1.0,Area3,Sound Money,9.49
+1970,CA,CAN,Canada,8.1,3.0,1.0,Area4,Freedom to trade internationally,8.68
+1970,CA,CAN,Canada,8.1,3.0,1.0,Area5,Regulation,7.41
 1970,CA,CAN,Canada,8.1,3.0,1.0,N,Economic Freedom Summary Index,8.1
 1970,CA,CAN,Canada,8.1,3.0,1.0,N,Rank,3.0
 1970,CA,CAN,Canada,8.1,3.0,1.0,N,Quartile,1.0
 1970,CF,CAF,Central African Republic,3.98,91.0,4.0,1E,State ownership of Assets,6.5
-1970,CF,CAF,Central African Republic,3.98,91.0,4.0,Area1,Size of Government,68.0
+1970,CF,CAF,Central African Republic,3.98,91.0,4.0,Area1,Size of Government,3.8
+1970,CF,CAF,Central African Republic,3.98,91.0,4.0,Area2,Legal System And Property Rights,1.46
+1970,CF,CAF,Central African Republic,3.98,91.0,4.0,Area3,Sound Money,6.25
+1970,CF,CAF,Central African Republic,3.98,91.0,4.0,Area5,Regulation,3.15
 1970,CF,CAF,Central African Republic,3.98,91.0,4.0,N,Economic Freedom Summary Index,3.98
 1970,CF,CAF,Central African Republic,3.98,91.0,4.0,N,Rank,91.0
 1970,CF,CAF,Central African Republic,3.98,91.0,4.0,N,Quartile,4.0
 1970,TD,TCD,Chad,,,,1E,State ownership of Assets,7.69
-1970,TD,TCD,Chad,,,,Area1,Size of Government,61.0
+1970,TD,TCD,Chad,,,,Area1,Size of Government,5.27
+1970,TD,TCD,Chad,,,,Area2,Legal System And Property Rights,3.06
+1970,TD,TCD,Chad,,,,Area3,Sound Money,6.86
 1970,CL,CHL,Chile,4.78,79.0,4.0,1B,Transfers and subsidies,5.94
 1970,CL,CHL,Chile,4.78,79.0,4.0,1E,State ownership of Assets,5.2
-1970,CL,CHL,Chile,4.78,79.0,4.0,Area1,Size of Government,65.0
+1970,CL,CHL,Chile,4.78,79.0,4.0,Area1,Size of Government,5.8
+1970,CL,CHL,Chile,4.78,79.0,4.0,Area2,Legal System And Property Rights,6.19
+1970,CL,CHL,Chile,4.78,79.0,4.0,Area3,Sound Money,5.94
+1970,CL,CHL,Chile,4.78,79.0,4.0,Area4,Freedom to trade internationally,2.37
+1970,CL,CHL,Chile,4.78,79.0,4.0,Area5,Regulation,4.19
 1970,CL,CHL,Chile,4.78,79.0,4.0,N,Economic Freedom Summary Index,4.78
 1970,CL,CHL,Chile,4.78,79.0,4.0,N,Rank,79.0
 1970,CL,CHL,Chile,4.78,79.0,4.0,N,Quartile,4.0
 1970,CN,CHN,China,,,,1E,State ownership of Assets,0.16
+1970,CN,CHN,China,,,,Area2,Legal System And Property Rights,5.59
+1970,CN,CHN,China,,,,Area3,Sound Money,6.39
+1970,CN,CHN,China,,,,Area5,Regulation,1.97
 1970,CO,COL,Colombia,5.3,63.0,3.0,1C,Government investment,5.97
 1970,CO,COL,Colombia,5.3,63.0,3.0,1E,State ownership of Assets,7.25
-1970,CO,COL,Colombia,5.3,63.0,3.0,Area1,Size of Government,35.0
+1970,CO,COL,Colombia,5.3,63.0,3.0,Area1,Size of Government,7.61
+1970,CO,COL,Colombia,5.3,63.0,3.0,Area2,Legal System And Property Rights,4.92
+1970,CO,COL,Colombia,5.3,63.0,3.0,Area3,Sound Money,6.17
+1970,CO,COL,Colombia,5.3,63.0,3.0,Area4,Freedom to trade internationally,4.59
 1970,CO,COL,Colombia,5.3,63.0,3.0,N,Economic Freedom Summary Index,5.3
 1970,CO,COL,Colombia,5.3,63.0,3.0,N,Rank,63.0
 1970,CO,COL,Colombia,5.3,63.0,3.0,N,Quartile,3.0
 1970,KM,COM,Comoros,,,,1C,Government investment,0.0
 1970,KM,COM,Comoros,,,,1E,State ownership of Assets,3.1
-1970,KM,COM,Comoros,,,,Area1,Size of Government,102.0
+1970,KM,COM,Comoros,,,,Area1,Size of Government,2.05
 1970,CD,COD,"Congo, Dem. Rep.",3.79,93.0,4.0,1E,State ownership of Assets,3.93
-1970,CD,COD,"Congo, Dem. Rep.",3.79,93.0,4.0,Area1,Size of Government,76.0
+1970,CD,COD,"Congo, Dem. Rep.",3.79,93.0,4.0,Area1,Size of Government,6.26
+1970,CD,COD,"Congo, Dem. Rep.",3.79,93.0,4.0,Area2,Legal System And Property Rights,1.69
+1970,CD,COD,"Congo, Dem. Rep.",3.79,93.0,4.0,Area3,Sound Money,6.52
+1970,CD,COD,"Congo, Dem. Rep.",3.79,93.0,4.0,Area4,Freedom to trade internationally,2.8
+1970,CD,COD,"Congo, Dem. Rep.",3.79,93.0,4.0,Area5,Regulation,1.85
 1970,CD,COD,"Congo, Dem. Rep.",3.79,93.0,4.0,N,Economic Freedom Summary Index,3.79
 1970,CD,COD,"Congo, Dem. Rep.",3.79,93.0,4.0,N,Rank,93.0
 1970,CD,COD,"Congo, Dem. Rep.",3.79,93.0,4.0,N,Quartile,4.0
 1970,CG,COG,"Congo, Rep.",4.2,87.0,4.0,1B,Transfers and subsidies,9.74
 1970,CG,COG,"Congo, Rep.",4.2,87.0,4.0,1E,State ownership of Assets,2.49
-1970,CG,COG,"Congo, Rep.",4.2,87.0,4.0,Area1,Size of Government,58.0
+1970,CG,COG,"Congo, Rep.",4.2,87.0,4.0,Area1,Size of Government,3.27
+1970,CG,COG,"Congo, Rep.",4.2,87.0,4.0,Area2,Legal System And Property Rights,2.44
+1970,CG,COG,"Congo, Rep.",4.2,87.0,4.0,Area3,Sound Money,6.57
+1970,CG,COG,"Congo, Rep.",4.2,87.0,4.0,Area5,Regulation,3.45
 1970,CG,COG,"Congo, Rep.",4.2,87.0,4.0,N,Economic Freedom Summary Index,4.2
 1970,CG,COG,"Congo, Rep.",4.2,87.0,4.0,N,Rank,87.0
 1970,CG,COG,"Congo, Rep.",4.2,87.0,4.0,N,Quartile,4.0
 1970,CR,CRI,Costa Rica,7.95,5.0,1.0,1B,Transfers and subsidies,9.81
 1970,CR,CRI,Costa Rica,7.95,5.0,1.0,1E,State ownership of Assets,5.97
-1970,CR,CRI,Costa Rica,7.95,5.0,1.0,Area1,Size of Government,18.0
+1970,CR,CRI,Costa Rica,7.95,5.0,1.0,Area1,Size of Government,7.45
+1970,CR,CRI,Costa Rica,7.95,5.0,1.0,Area2,Legal System And Property Rights,6.11
+1970,CR,CRI,Costa Rica,7.95,5.0,1.0,Area3,Sound Money,9.24
+1970,CR,CRI,Costa Rica,7.95,5.0,1.0,Area4,Freedom to trade internationally,4.58
+1970,CR,CRI,Costa Rica,7.95,5.0,1.0,Area5,Regulation,6.44
 1970,CR,CRI,Costa Rica,7.95,5.0,1.0,N,Economic Freedom Summary Index,7.95
 1970,CR,CRI,Costa Rica,7.95,5.0,1.0,N,Rank,5.0
 1970,CR,CRI,Costa Rica,7.95,5.0,1.0,N,Quartile,1.0
 1970,CY,CYP,Cyprus,5.68,53.0,3.0,1B,Transfers and subsidies,9.08
 1970,CY,CYP,Cyprus,5.68,53.0,3.0,1E,State ownership of Assets,5.5
-1970,CY,CYP,Cyprus,5.68,53.0,3.0,Area1,Size of Government,32.0
+1970,CY,CYP,Cyprus,5.68,53.0,3.0,Area1,Size of Government,6.76
+1970,CY,CYP,Cyprus,5.68,53.0,3.0,Area2,Legal System And Property Rights,4.19
+1970,CY,CYP,Cyprus,5.68,53.0,3.0,Area3,Sound Money,8.05
+1970,CY,CYP,Cyprus,5.68,53.0,3.0,Area4,Freedom to trade internationally,6.26
+1970,CY,CYP,Cyprus,5.68,53.0,3.0,Area5,Regulation,4.8
 1970,CY,CYP,Cyprus,5.68,53.0,3.0,N,Economic Freedom Summary Index,5.68
 1970,CY,CYP,Cyprus,5.68,53.0,3.0,N,Rank,53.0
 1970,CY,CYP,Cyprus,5.68,53.0,3.0,N,Quartile,3.0
 1970,CZ,CZE,Czechia,,,,1E,State ownership of Assets,0.44
+1970,CZ,CZE,Czechia,,,,Area2,Legal System And Property Rights,4.56
+1970,CZ,CZE,Czechia,,,,Area5,Regulation,2.34
 1970,CI,CIV,Côte d'Ivoire,,,,1C,Government investment,4.28
 1970,CI,CIV,Côte d'Ivoire,,,,1E,State ownership of Assets,4.23
-1970,CI,CIV,Côte d'Ivoire,,,,Area1,Size of Government,89.0
+1970,CI,CIV,Côte d'Ivoire,,,,Area1,Size of Government,6.31
+1970,CI,CIV,Côte d'Ivoire,,,,Area2,Legal System And Property Rights,3.83
+1970,CI,CIV,Côte d'Ivoire,,,,Area3,Sound Money,6.81
 1970,DK,DNK,Denmark,7.08,19.0,1.0,1C,Government investment,1.06
 1970,DK,DNK,Denmark,7.08,19.0,1.0,1E,State ownership of Assets,6.88
-1970,DK,DNK,Denmark,7.08,19.0,1.0,Area1,Size of Government,99.0
+1970,DK,DNK,Denmark,7.08,19.0,1.0,Area1,Size of Government,3.63
+1970,DK,DNK,Denmark,7.08,19.0,1.0,Area2,Legal System And Property Rights,9.47
+1970,DK,DNK,Denmark,7.08,19.0,1.0,Area3,Sound Money,6.84
+1970,DK,DNK,Denmark,7.08,19.0,1.0,Area4,Freedom to trade internationally,7.31
+1970,DK,DNK,Denmark,7.08,19.0,1.0,Area5,Regulation,7.47
 1970,DK,DNK,Denmark,7.08,19.0,1.0,N,Economic Freedom Summary Index,7.08
 1970,DK,DNK,Denmark,7.08,19.0,1.0,N,Rank,19.0
 1970,DK,DNK,Denmark,7.08,19.0,1.0,N,Quartile,1.0
@@ -147,178 +246,282 @@ Year,ISO Code 2,ISO Code 3,Countries, Economic Freedom Summary Index,Rank,Quarti
 1970,DO,DOM,Dominican Republic,5.3,63.0,3.0,1B,Transfers and subsidies,9.59
 1970,DO,DOM,Dominican Republic,5.3,63.0,3.0,1C,Government investment,9.23
 1970,DO,DOM,Dominican Republic,5.3,63.0,3.0,1E,State ownership of Assets,7.14
-1970,DO,DOM,Dominican Republic,5.3,63.0,3.0,Area1,Size of Government,5.0
+1970,DO,DOM,Dominican Republic,5.3,63.0,3.0,Area1,Size of Government,6.78
+1970,DO,DOM,Dominican Republic,5.3,63.0,3.0,Area2,Legal System And Property Rights,2.34
+1970,DO,DOM,Dominican Republic,5.3,63.0,3.0,Area3,Sound Money,6.89
+1970,DO,DOM,Dominican Republic,5.3,63.0,3.0,Area4,Freedom to trade internationally,2.3
+1970,DO,DOM,Dominican Republic,5.3,63.0,3.0,Area5,Regulation,3.95
 1970,DO,DOM,Dominican Republic,5.3,63.0,3.0,N,Economic Freedom Summary Index,5.3
 1970,DO,DOM,Dominican Republic,5.3,63.0,3.0,N,Rank,63.0
 1970,DO,DOM,Dominican Republic,5.3,63.0,3.0,N,Quartile,3.0
 1970,EC,ECU,Ecuador,4.88,74.0,4.0,1C,Government investment,8.6
 1970,EC,ECU,Ecuador,4.88,74.0,4.0,1E,State ownership of Assets,7.67
-1970,EC,ECU,Ecuador,4.88,74.0,4.0,Area1,Size of Government,10.0
+1970,EC,ECU,Ecuador,4.88,74.0,4.0,Area1,Size of Government,7.88
+1970,EC,ECU,Ecuador,4.88,74.0,4.0,Area2,Legal System And Property Rights,3.84
+1970,EC,ECU,Ecuador,4.88,74.0,4.0,Area3,Sound Money,6.69
+1970,EC,ECU,Ecuador,4.88,74.0,4.0,Area4,Freedom to trade internationally,2.41
+1970,EC,ECU,Ecuador,4.88,74.0,4.0,Area5,Regulation,3.07
 1970,EC,ECU,Ecuador,4.88,74.0,4.0,N,Economic Freedom Summary Index,4.88
 1970,EC,ECU,Ecuador,4.88,74.0,4.0,N,Rank,74.0
 1970,EC,ECU,Ecuador,4.88,74.0,4.0,N,Quartile,4.0
 1970,EG,EGY,"Egypt, Arab Rep.",4.88,74.0,4.0,1E,State ownership of Assets,5.42
-1970,EG,EGY,"Egypt, Arab Rep.",4.88,74.0,4.0,Area1,Size of Government,92.0
+1970,EG,EGY,"Egypt, Arab Rep.",4.88,74.0,4.0,Area1,Size of Government,2.31
+1970,EG,EGY,"Egypt, Arab Rep.",4.88,74.0,4.0,Area2,Legal System And Property Rights,3.17
+1970,EG,EGY,"Egypt, Arab Rep.",4.88,74.0,4.0,Area3,Sound Money,7.21
+1970,EG,EGY,"Egypt, Arab Rep.",4.88,74.0,4.0,Area5,Regulation,4.91
 1970,EG,EGY,"Egypt, Arab Rep.",4.88,74.0,4.0,N,Economic Freedom Summary Index,4.88
 1970,EG,EGY,"Egypt, Arab Rep.",4.88,74.0,4.0,N,Rank,74.0
 1970,EG,EGY,"Egypt, Arab Rep.",4.88,74.0,4.0,N,Quartile,4.0
 1970,SV,SLV,El Salvador,5.69,52.0,3.0,1E,State ownership of Assets,7.15
-1970,SV,SLV,El Salvador,5.69,52.0,3.0,Area1,Size of Government,22.0
+1970,SV,SLV,El Salvador,5.69,52.0,3.0,Area1,Size of Government,6.3
+1970,SV,SLV,El Salvador,5.69,52.0,3.0,Area2,Legal System And Property Rights,4.02
+1970,SV,SLV,El Salvador,5.69,52.0,3.0,Area3,Sound Money,7.01
+1970,SV,SLV,El Salvador,5.69,52.0,3.0,Area4,Freedom to trade internationally,3.72
+1970,SV,SLV,El Salvador,5.69,52.0,3.0,Area5,Regulation,5.92
 1970,SV,SLV,El Salvador,5.69,52.0,3.0,N,Economic Freedom Summary Index,5.69
 1970,SV,SLV,El Salvador,5.69,52.0,3.0,N,Rank,52.0
 1970,SV,SLV,El Salvador,5.69,52.0,3.0,N,Quartile,3.0
 1970,SZ,SWZ,Eswatini,,,,1C,Government investment,10.0
 1970,SZ,SWZ,Eswatini,,,,1E,State ownership of Assets,4.24
-1970,SZ,SWZ,Eswatini,,,,Area1,Size of Government,38.0
+1970,SZ,SWZ,Eswatini,,,,Area1,Size of Government,10.0
+1970,SZ,SWZ,Eswatini,,,,Area2,Legal System And Property Rights,2.65
 1970,ET,ETH,Ethiopia,,,,1E,State ownership of Assets,4.91
+1970,ET,ETH,Ethiopia,,,,Area2,Legal System And Property Rights,3.52
 1970,FJ,FJI,Fiji,6.48,33.0,2.0,1C,Government investment,4.11
 1970,FJ,FJI,Fiji,6.48,33.0,2.0,1E,State ownership of Assets,6.69
-1970,FJ,FJI,Fiji,6.48,33.0,2.0,Area1,Size of Government,71.0
+1970,FJ,FJI,Fiji,6.48,33.0,2.0,Area1,Size of Government,6.02
+1970,FJ,FJI,Fiji,6.48,33.0,2.0,Area2,Legal System And Property Rights,4.63
+1970,FJ,FJI,Fiji,6.48,33.0,2.0,Area3,Sound Money,6.52
+1970,FJ,FJI,Fiji,6.48,33.0,2.0,Area4,Freedom to trade internationally,5.06
+1970,FJ,FJI,Fiji,6.48,33.0,2.0,Area5,Regulation,7.68
 1970,FJ,FJI,Fiji,6.48,33.0,2.0,N,Economic Freedom Summary Index,6.48
 1970,FJ,FJI,Fiji,6.48,33.0,2.0,N,Rank,33.0
 1970,FJ,FJI,Fiji,6.48,33.0,2.0,N,Quartile,2.0
 1970,FI,FIN,Finland,7.78,10.0,1.0,1C,Government investment,10.0
 1970,FI,FIN,Finland,7.78,10.0,1.0,1E,State ownership of Assets,6.91
-1970,FI,FIN,Finland,7.78,10.0,1.0,Area1,Size of Government,24.0
+1970,FI,FIN,Finland,7.78,10.0,1.0,Area1,Size of Government,6.16
+1970,FI,FIN,Finland,7.78,10.0,1.0,Area2,Legal System And Property Rights,8.72
+1970,FI,FIN,Finland,7.78,10.0,1.0,Area3,Sound Money,7.99
+1970,FI,FIN,Finland,7.78,10.0,1.0,Area4,Freedom to trade internationally,6.63
+1970,FI,FIN,Finland,7.78,10.0,1.0,Area5,Regulation,7.7
 1970,FI,FIN,Finland,7.78,10.0,1.0,N,Economic Freedom Summary Index,7.78
 1970,FI,FIN,Finland,7.78,10.0,1.0,N,Rank,10.0
 1970,FI,FIN,Finland,7.78,10.0,1.0,N,Quartile,1.0
 1970,FR,FRA,France,6.6,32.0,2.0,1B,Transfers and subsidies,5.08
 1970,FR,FRA,France,6.6,32.0,2.0,1C,Government investment,8.0
 1970,FR,FRA,France,6.6,32.0,2.0,1E,State ownership of Assets,6.37
-1970,FR,FRA,France,6.6,32.0,2.0,Area1,Size of Government,57.0
+1970,FR,FRA,France,6.6,32.0,2.0,Area1,Size of Government,5.88
+1970,FR,FRA,France,6.6,32.0,2.0,Area2,Legal System And Property Rights,5.77
+1970,FR,FRA,France,6.6,32.0,2.0,Area3,Sound Money,7.04
+1970,FR,FRA,France,6.6,32.0,2.0,Area4,Freedom to trade internationally,6.66
+1970,FR,FRA,France,6.6,32.0,2.0,Area5,Regulation,5.45
 1970,FR,FRA,France,6.6,32.0,2.0,N,Economic Freedom Summary Index,6.6
 1970,FR,FRA,France,6.6,32.0,2.0,N,Rank,32.0
 1970,FR,FRA,France,6.6,32.0,2.0,N,Quartile,2.0
 1970,GA,GAB,Gabon,4.21,86.0,4.0,1C,Government investment,6.51
 1970,GA,GAB,Gabon,4.21,86.0,4.0,1E,State ownership of Assets,5.26
-1970,GA,GAB,Gabon,4.21,86.0,4.0,Area1,Size of Government,93.0
+1970,GA,GAB,Gabon,4.21,86.0,4.0,Area1,Size of Government,3.91
+1970,GA,GAB,Gabon,4.21,86.0,4.0,Area2,Legal System And Property Rights,3.48
+1970,GA,GAB,Gabon,4.21,86.0,4.0,Area3,Sound Money,7.06
+1970,GA,GAB,Gabon,4.21,86.0,4.0,Area5,Regulation,2.72
 1970,GA,GAB,Gabon,4.21,86.0,4.0,N,Economic Freedom Summary Index,4.21
 1970,GA,GAB,Gabon,4.21,86.0,4.0,N,Rank,86.0
 1970,GA,GAB,Gabon,4.21,86.0,4.0,N,Quartile,4.0
 1970,GM,GMB,"Gambia, The",,,,1E,State ownership of Assets,5.46
+1970,GM,GMB,"Gambia, The",,,,Area2,Legal System And Property Rights,5.09
 1970,DE,DEU,Germany,8.02,4.0,1.0,1B,Transfers and subsidies,6.1
 1970,DE,DEU,Germany,8.02,4.0,1.0,1C,Government investment,7.79
 1970,DE,DEU,Germany,8.02,4.0,1.0,1D,Top marginal income tax rate,2.0
 1970,DE,DEU,Germany,8.02,4.0,1.0,1E,State ownership of Assets,7.77
-1970,DE,DEU,Germany,8.02,4.0,1.0,Area1,Size of Government,72.0
+1970,DE,DEU,Germany,8.02,4.0,1.0,Area1,Size of Government,5.77
+1970,DE,DEU,Germany,8.02,4.0,1.0,Area2,Legal System And Property Rights,8.21
+1970,DE,DEU,Germany,8.02,4.0,1.0,Area3,Sound Money,9.27
+1970,DE,DEU,Germany,8.02,4.0,1.0,Area4,Freedom to trade internationally,9.08
+1970,DE,DEU,Germany,8.02,4.0,1.0,Area5,Regulation,6.05
 1970,DE,DEU,Germany,8.02,4.0,1.0,N,Economic Freedom Summary Index,8.02
 1970,DE,DEU,Germany,8.02,4.0,1.0,N,Rank,4.0
 1970,DE,DEU,Germany,8.02,4.0,1.0,N,Quartile,1.0
 1970,GH,GHA,Ghana,4.2,87.0,4.0,1B,Transfers and subsidies,9.49
 1970,GH,GHA,Ghana,4.2,87.0,4.0,1D,Top marginal income tax rate,0.0
 1970,GH,GHA,Ghana,4.2,87.0,4.0,1E,State ownership of Assets,5.04
-1970,GH,GHA,Ghana,4.2,87.0,4.0,Area1,Size of Government,77.0
+1970,GH,GHA,Ghana,4.2,87.0,4.0,Area1,Size of Government,4.9
+1970,GH,GHA,Ghana,4.2,87.0,4.0,Area2,Legal System And Property Rights,3.84
+1970,GH,GHA,Ghana,4.2,87.0,4.0,Area3,Sound Money,6.56
+1970,GH,GHA,Ghana,4.2,87.0,4.0,Area4,Freedom to trade internationally,10.0
+1970,GH,GHA,Ghana,4.2,87.0,4.0,Area5,Regulation,3.71
 1970,GH,GHA,Ghana,4.2,87.0,4.0,N,Economic Freedom Summary Index,4.2
 1970,GH,GHA,Ghana,4.2,87.0,4.0,N,Rank,87.0
 1970,GH,GHA,Ghana,4.2,87.0,4.0,N,Quartile,4.0
 1970,GR,GRC,Greece,5.72,51.0,3.0,1B,Transfers and subsidies,9.61
 1970,GR,GRC,Greece,5.72,51.0,3.0,1E,State ownership of Assets,4.7
-1970,GR,GRC,Greece,5.72,51.0,3.0,Area1,Size of Government,41.0
+1970,GR,GRC,Greece,5.72,51.0,3.0,Area1,Size of Government,7.89
+1970,GR,GRC,Greece,5.72,51.0,3.0,Area2,Legal System And Property Rights,3.06
+1970,GR,GRC,Greece,5.72,51.0,3.0,Area3,Sound Money,8.35
+1970,GR,GRC,Greece,5.72,51.0,3.0,Area4,Freedom to trade internationally,6.27
+1970,GR,GRC,Greece,5.72,51.0,3.0,Area5,Regulation,3.6
 1970,GR,GRC,Greece,5.72,51.0,3.0,N,Economic Freedom Summary Index,5.72
 1970,GR,GRC,Greece,5.72,51.0,3.0,N,Rank,51.0
 1970,GR,GRC,Greece,5.72,51.0,3.0,N,Quartile,3.0
 1970,GT,GTM,Guatemala,5.81,48.0,2.0,1B,Transfers and subsidies,9.94
 1970,GT,GTM,Guatemala,5.81,48.0,2.0,1C,Government investment,8.86
 1970,GT,GTM,Guatemala,5.81,48.0,2.0,1E,State ownership of Assets,9.31
-1970,GT,GTM,Guatemala,5.81,48.0,2.0,Area1,Size of Government,2.0
+1970,GT,GTM,Guatemala,5.81,48.0,2.0,Area1,Size of Government,9.08
+1970,GT,GTM,Guatemala,5.81,48.0,2.0,Area2,Legal System And Property Rights,2.24
+1970,GT,GTM,Guatemala,5.81,48.0,2.0,Area3,Sound Money,6.88
+1970,GT,GTM,Guatemala,5.81,48.0,2.0,Area4,Freedom to trade internationally,3.79
+1970,GT,GTM,Guatemala,5.81,48.0,2.0,Area5,Regulation,4.77
 1970,GT,GTM,Guatemala,5.81,48.0,2.0,N,Economic Freedom Summary Index,5.81
 1970,GT,GTM,Guatemala,5.81,48.0,2.0,N,Rank,48.0
 1970,GT,GTM,Guatemala,5.81,48.0,2.0,N,Quartile,2.0
 1970,GN,GIN,Guinea,,,,1E,State ownership of Assets,2.35
+1970,GN,GIN,Guinea,,,,Area2,Legal System And Property Rights,2.62
 1970,GW,GNB,Guinea-Bissau,,,,1E,State ownership of Assets,0.91
-1970,GW,GNB,Guinea-Bissau,,,,Area1,Size of Government,101.0
+1970,GW,GNB,Guinea-Bissau,,,,Area2,Legal System And Property Rights,2.35
 1970,GY,GUY,Guyana,6.07,41.0,2.0,1E,State ownership of Assets,4.96
-1970,GY,GUY,Guyana,6.07,41.0,2.0,Area1,Size of Government,85.0
+1970,GY,GUY,Guyana,6.07,41.0,2.0,Area1,Size of Government,3.14
+1970,GY,GUY,Guyana,6.07,41.0,2.0,Area2,Legal System And Property Rights,4.7
+1970,GY,GUY,Guyana,6.07,41.0,2.0,Area3,Sound Money,6.85
+1970,GY,GUY,Guyana,6.07,41.0,2.0,Area5,Regulation,6.31
 1970,GY,GUY,Guyana,6.07,41.0,2.0,N,Economic Freedom Summary Index,6.07
 1970,GY,GUY,Guyana,6.07,41.0,2.0,N,Rank,41.0
 1970,GY,GUY,Guyana,6.07,41.0,2.0,N,Quartile,2.0
 1970,HT,HTI,Haiti,5.74,50.0,3.0,1E,State ownership of Assets,6.92
-1970,HT,HTI,Haiti,5.74,50.0,3.0,Area1,Size of Government,16.0
+1970,HT,HTI,Haiti,5.74,50.0,3.0,Area1,Size of Government,8.39
+1970,HT,HTI,Haiti,5.74,50.0,3.0,Area2,Legal System And Property Rights,1.42
+1970,HT,HTI,Haiti,5.74,50.0,3.0,Area3,Sound Money,9.17
+1970,HT,HTI,Haiti,5.74,50.0,3.0,Area5,Regulation,2.25
 1970,HT,HTI,Haiti,5.74,50.0,3.0,N,Economic Freedom Summary Index,5.74
 1970,HT,HTI,Haiti,5.74,50.0,3.0,N,Rank,50.0
 1970,HT,HTI,Haiti,5.74,50.0,3.0,N,Quartile,3.0
 1970,HN,HND,Honduras,6.24,37.0,2.0,1B,Transfers and subsidies,9.96
 1970,HN,HND,Honduras,6.24,37.0,2.0,1C,Government investment,4.26
 1970,HN,HND,Honduras,6.24,37.0,2.0,1E,State ownership of Assets,5.79
-1970,HN,HND,Honduras,6.24,37.0,2.0,Area1,Size of Government,46.0
+1970,HN,HND,Honduras,6.24,37.0,2.0,Area1,Size of Government,7.96
+1970,HN,HND,Honduras,6.24,37.0,2.0,Area2,Legal System And Property Rights,2.69
+1970,HN,HND,Honduras,6.24,37.0,2.0,Area3,Sound Money,9.43
+1970,HN,HND,Honduras,6.24,37.0,2.0,Area5,Regulation,5.4
 1970,HN,HND,Honduras,6.24,37.0,2.0,N,Economic Freedom Summary Index,6.24
 1970,HN,HND,Honduras,6.24,37.0,2.0,N,Rank,37.0
 1970,HN,HND,Honduras,6.24,37.0,2.0,N,Quartile,2.0
 1970,HK,HKG,"Hong Kong SAR, China",8.81,1.0,1.0,1C,Government investment,10.0
 1970,HK,HKG,"Hong Kong SAR, China",8.81,1.0,1.0,1D,Top marginal income tax rate,10.0
 1970,HK,HKG,"Hong Kong SAR, China",8.81,1.0,1.0,1E,State ownership of Assets,8.79
-1970,HK,HKG,"Hong Kong SAR, China",8.81,1.0,1.0,Area1,Size of Government,1.0
+1970,HK,HKG,"Hong Kong SAR, China",8.81,1.0,1.0,Area1,Size of Government,9.5
+1970,HK,HKG,"Hong Kong SAR, China",8.81,1.0,1.0,Area2,Legal System And Property Rights,8.88
+1970,HK,HKG,"Hong Kong SAR, China",8.81,1.0,1.0,Area3,Sound Money,8.8
+1970,HK,HKG,"Hong Kong SAR, China",8.81,1.0,1.0,Area4,Freedom to trade internationally,9.0
+1970,HK,HKG,"Hong Kong SAR, China",8.81,1.0,1.0,Area5,Regulation,8.67
 1970,HK,HKG,"Hong Kong SAR, China",8.81,1.0,1.0,N,Economic Freedom Summary Index,8.81
 1970,HK,HKG,"Hong Kong SAR, China",8.81,1.0,1.0,N,Rank,1.0
 1970,HK,HKG,"Hong Kong SAR, China",8.81,1.0,1.0,N,Quartile,1.0
 1970,HU,HUN,Hungary,4.65,81.0,4.0,1E,State ownership of Assets,1.18
-1970,HU,HUN,Hungary,4.65,81.0,4.0,Area1,Size of Government,94.0
+1970,HU,HUN,Hungary,4.65,81.0,4.0,Area1,Size of Government,3.06
+1970,HU,HUN,Hungary,4.65,81.0,4.0,Area2,Legal System And Property Rights,5.57
+1970,HU,HUN,Hungary,4.65,81.0,4.0,Area3,Sound Money,6.9
+1970,HU,HUN,Hungary,4.65,81.0,4.0,Area5,Regulation,2.89
 1970,HU,HUN,Hungary,4.65,81.0,4.0,N,Economic Freedom Summary Index,4.65
 1970,HU,HUN,Hungary,4.65,81.0,4.0,N,Rank,81.0
 1970,HU,HUN,Hungary,4.65,81.0,4.0,N,Quartile,4.0
 1970,IS,ISL,Iceland,6.74,27.0,2.0,1C,Government investment,6.89
 1970,IS,ISL,Iceland,6.74,27.0,2.0,1E,State ownership of Assets,6.77
-1970,IS,ISL,Iceland,6.74,27.0,2.0,Area1,Size of Government,49.0
+1970,IS,ISL,Iceland,6.74,27.0,2.0,Area1,Size of Government,5.49
+1970,IS,ISL,Iceland,6.74,27.0,2.0,Area2,Legal System And Property Rights,9.05
+1970,IS,ISL,Iceland,6.74,27.0,2.0,Area3,Sound Money,5.56
+1970,IS,ISL,Iceland,6.74,27.0,2.0,Area4,Freedom to trade internationally,4.93
+1970,IS,ISL,Iceland,6.74,27.0,2.0,Area5,Regulation,5.47
 1970,IS,ISL,Iceland,6.74,27.0,2.0,N,Economic Freedom Summary Index,6.74
 1970,IS,ISL,Iceland,6.74,27.0,2.0,N,Rank,27.0
 1970,IS,ISL,Iceland,6.74,27.0,2.0,N,Quartile,2.0
 1970,IN,IND,India,5.64,57.0,3.0,1C,Government investment,3.47
 1970,IN,IND,India,5.64,57.0,3.0,1D,Top marginal income tax rate,0.0
 1970,IN,IND,India,5.64,57.0,3.0,1E,State ownership of Assets,6.17
-1970,IN,IND,India,5.64,57.0,3.0,Area1,Size of Government,90.0
+1970,IN,IND,India,5.64,57.0,3.0,Area1,Size of Government,5.69
+1970,IN,IND,India,5.64,57.0,3.0,Area2,Legal System And Property Rights,4.0
+1970,IN,IND,India,5.64,57.0,3.0,Area3,Sound Money,6.69
+1970,IN,IND,India,5.64,57.0,3.0,Area5,Regulation,6.57
 1970,IN,IND,India,5.64,57.0,3.0,N,Economic Freedom Summary Index,5.64
 1970,IN,IND,India,5.64,57.0,3.0,N,Rank,57.0
 1970,IN,IND,India,5.64,57.0,3.0,N,Quartile,3.0
 1970,ID,IDN,Indonesia,4.37,85.0,4.0,1B,Transfers and subsidies,9.4
 1970,ID,IDN,Indonesia,4.37,85.0,4.0,1E,State ownership of Assets,5.4
-1970,ID,IDN,Indonesia,4.37,85.0,4.0,Area1,Size of Government,13.0
+1970,ID,IDN,Indonesia,4.37,85.0,4.0,Area1,Size of Government,7.39
+1970,ID,IDN,Indonesia,4.37,85.0,4.0,Area2,Legal System And Property Rights,1.98
+1970,ID,IDN,Indonesia,4.37,85.0,4.0,Area3,Sound Money,5.23
+1970,ID,IDN,Indonesia,4.37,85.0,4.0,Area4,Freedom to trade internationally,3.62
+1970,ID,IDN,Indonesia,4.37,85.0,4.0,Area5,Regulation,2.68
 1970,ID,IDN,Indonesia,4.37,85.0,4.0,N,Economic Freedom Summary Index,4.37
 1970,ID,IDN,Indonesia,4.37,85.0,4.0,N,Rank,85.0
 1970,ID,IDN,Indonesia,4.37,85.0,4.0,N,Quartile,4.0
 1970,IR,IRN,"Iran, Islamic Rep.",5.92,44.0,2.0,1B,Transfers and subsidies,8.96
 1970,IR,IRN,"Iran, Islamic Rep.",5.92,44.0,2.0,1C,Government investment,2.85
 1970,IR,IRN,"Iran, Islamic Rep.",5.92,44.0,2.0,1E,State ownership of Assets,4.64
-1970,IR,IRN,"Iran, Islamic Rep.",5.92,44.0,2.0,Area1,Size of Government,78.0
+1970,IR,IRN,"Iran, Islamic Rep.",5.92,44.0,2.0,Area1,Size of Government,3.48
+1970,IR,IRN,"Iran, Islamic Rep.",5.92,44.0,2.0,Area2,Legal System And Property Rights,3.54
+1970,IR,IRN,"Iran, Islamic Rep.",5.92,44.0,2.0,Area3,Sound Money,7.9
+1970,IR,IRN,"Iran, Islamic Rep.",5.92,44.0,2.0,Area4,Freedom to trade internationally,6.42
+1970,IR,IRN,"Iran, Islamic Rep.",5.92,44.0,2.0,Area5,Regulation,2.98
 1970,IR,IRN,"Iran, Islamic Rep.",5.92,44.0,2.0,N,Economic Freedom Summary Index,5.92
 1970,IR,IRN,"Iran, Islamic Rep.",5.92,44.0,2.0,N,Rank,44.0
 1970,IR,IRN,"Iran, Islamic Rep.",5.92,44.0,2.0,N,Quartile,2.0
 1970,IQ,IRQ,Iraq,,,,1E,State ownership of Assets,3.56
+1970,IQ,IRQ,Iraq,,,,Area2,Legal System And Property Rights,2.74
 1970,IE,IRL,Ireland,6.82,24.0,1.0,1B,Transfers and subsidies,6.53
 1970,IE,IRL,Ireland,6.82,24.0,1.0,1C,Government investment,9.77
 1970,IE,IRL,Ireland,6.82,24.0,1.0,1E,State ownership of Assets,6.59
-1970,IE,IRL,Ireland,6.82,24.0,1.0,Area1,Size of Government,27.0
+1970,IE,IRL,Ireland,6.82,24.0,1.0,Area1,Size of Government,5.96
+1970,IE,IRL,Ireland,6.82,24.0,1.0,Area2,Legal System And Property Rights,7.2
+1970,IE,IRL,Ireland,6.82,24.0,1.0,Area3,Sound Money,6.65
+1970,IE,IRL,Ireland,6.82,24.0,1.0,Area4,Freedom to trade internationally,6.73
+1970,IE,IRL,Ireland,6.82,24.0,1.0,Area5,Regulation,6.57
 1970,IE,IRL,Ireland,6.82,24.0,1.0,N,Economic Freedom Summary Index,6.82
 1970,IE,IRL,Ireland,6.82,24.0,1.0,N,Rank,24.0
 1970,IE,IRL,Ireland,6.82,24.0,1.0,N,Quartile,1.0
 1970,IL,ISR,Israel,4.97,70.0,3.0,1B,Transfers and subsidies,7.2
 1970,IL,ISR,Israel,4.97,70.0,3.0,1E,State ownership of Assets,4.25
-1970,IL,ISR,Israel,4.97,70.0,3.0,Area1,Size of Government,97.0
+1970,IL,ISR,Israel,4.97,70.0,3.0,Area1,Size of Government,4.29
+1970,IL,ISR,Israel,4.97,70.0,3.0,Area2,Legal System And Property Rights,5.88
+1970,IL,ISR,Israel,4.97,70.0,3.0,Area3,Sound Money,6.1
+1970,IL,ISR,Israel,4.97,70.0,3.0,Area4,Freedom to trade internationally,3.79
+1970,IL,ISR,Israel,4.97,70.0,3.0,Area5,Regulation,3.84
 1970,IL,ISR,Israel,4.97,70.0,3.0,N,Economic Freedom Summary Index,4.97
 1970,IL,ISR,Israel,4.97,70.0,3.0,N,Rank,70.0
 1970,IL,ISR,Israel,4.97,70.0,3.0,N,Quartile,3.0
 1970,IT,ITA,Italy,6.41,34.0,2.0,1B,Transfers and subsidies,5.88
 1970,IT,ITA,Italy,6.41,34.0,2.0,1E,State ownership of Assets,6.12
-1970,IT,ITA,Italy,6.41,34.0,2.0,Area1,Size of Government,64.0
+1970,IT,ITA,Italy,6.41,34.0,2.0,Area1,Size of Government,7.98
+1970,IT,ITA,Italy,6.41,34.0,2.0,Area2,Legal System And Property Rights,5.87
+1970,IT,ITA,Italy,6.41,34.0,2.0,Area3,Sound Money,6.42
+1970,IT,ITA,Italy,6.41,34.0,2.0,Area4,Freedom to trade internationally,7.52
+1970,IT,ITA,Italy,6.41,34.0,2.0,Area5,Regulation,4.71
 1970,IT,ITA,Italy,6.41,34.0,2.0,N,Economic Freedom Summary Index,6.41
 1970,IT,ITA,Italy,6.41,34.0,2.0,N,Rank,34.0
 1970,IT,ITA,Italy,6.41,34.0,2.0,N,Quartile,2.0
 1970,JM,JAM,Jamaica,6.18,39.0,2.0,1D,Top marginal income tax rate,0.0
 1970,JM,JAM,Jamaica,6.18,39.0,2.0,1E,State ownership of Assets,4.22
-1970,JM,JAM,Jamaica,6.18,39.0,2.0,Area1,Size of Government,100.0
+1970,JM,JAM,Jamaica,6.18,39.0,2.0,Area1,Size of Government,4.91
+1970,JM,JAM,Jamaica,6.18,39.0,2.0,Area2,Legal System And Property Rights,5.14
+1970,JM,JAM,Jamaica,6.18,39.0,2.0,Area3,Sound Money,6.53
+1970,JM,JAM,Jamaica,6.18,39.0,2.0,Area5,Regulation,5.56
 1970,JM,JAM,Jamaica,6.18,39.0,2.0,N,Economic Freedom Summary Index,6.18
 1970,JM,JAM,Jamaica,6.18,39.0,2.0,N,Rank,39.0
 1970,JM,JAM,Jamaica,6.18,39.0,2.0,N,Quartile,2.0
 1970,JP,JPN,Japan,7.32,14.0,1.0,1B,Transfers and subsidies,9.7
 1970,JP,JPN,Japan,7.32,14.0,1.0,1C,Government investment,5.63
 1970,JP,JPN,Japan,7.32,14.0,1.0,1E,State ownership of Assets,8.04
-1970,JP,JPN,Japan,7.32,14.0,1.0,Area1,Size of Government,14.0
+1970,JP,JPN,Japan,7.32,14.0,1.0,Area1,Size of Government,6.42
+1970,JP,JPN,Japan,7.32,14.0,1.0,Area2,Legal System And Property Rights,7.84
+1970,JP,JPN,Japan,7.32,14.0,1.0,Area3,Sound Money,6.5
+1970,JP,JPN,Japan,7.32,14.0,1.0,Area4,Freedom to trade internationally,6.13
+1970,JP,JPN,Japan,7.32,14.0,1.0,Area5,Regulation,6.09
 1970,JP,JPN,Japan,7.32,14.0,1.0,N,Economic Freedom Summary Index,7.32
 1970,JP,JPN,Japan,7.32,14.0,1.0,N,Rank,14.0
 1970,JP,JPN,Japan,7.32,14.0,1.0,N,Quartile,1.0
 1970,JO,JOR,Jordan,5.19,69.0,3.0,1C,Government investment,8.16
 1970,JO,JOR,Jordan,5.19,69.0,3.0,1E,State ownership of Assets,6.13
-1970,JO,JOR,Jordan,5.19,69.0,3.0,Area1,Size of Government,36.0
+1970,JO,JOR,Jordan,5.19,69.0,3.0,Area1,Size of Government,8.21
+1970,JO,JOR,Jordan,5.19,69.0,3.0,Area2,Legal System And Property Rights,3.7
+1970,JO,JOR,Jordan,5.19,69.0,3.0,Area3,Sound Money,6.56
+1970,JO,JOR,Jordan,5.19,69.0,3.0,Area5,Regulation,5.07
 1970,JO,JOR,Jordan,5.19,69.0,3.0,N,Economic Freedom Summary Index,5.19
 1970,JO,JOR,Jordan,5.19,69.0,3.0,N,Rank,69.0
 1970,JO,JOR,Jordan,5.19,69.0,3.0,N,Quartile,3.0
@@ -326,202 +529,338 @@ Year,ISO Code 2,ISO Code 3,Countries, Economic Freedom Summary Index,Rank,Quarti
 1970,KE,KEN,Kenya,4.81,77.0,4.0,1C,Government investment,7.45
 1970,KE,KEN,Kenya,4.81,77.0,4.0,1D,Top marginal income tax rate,0.0
 1970,KE,KEN,Kenya,4.81,77.0,4.0,1E,State ownership of Assets,4.13
-1970,KE,KEN,Kenya,4.81,77.0,4.0,Area1,Size of Government,81.0
+1970,KE,KEN,Kenya,4.81,77.0,4.0,Area1,Size of Government,5.36
+1970,KE,KEN,Kenya,4.81,77.0,4.0,Area2,Legal System And Property Rights,4.35
+1970,KE,KEN,Kenya,4.81,77.0,4.0,Area3,Sound Money,5.78
+1970,KE,KEN,Kenya,4.81,77.0,4.0,Area4,Freedom to trade internationally,2.91
+1970,KE,KEN,Kenya,4.81,77.0,4.0,Area5,Regulation,5.11
 1970,KE,KEN,Kenya,4.81,77.0,4.0,N,Economic Freedom Summary Index,4.81
 1970,KE,KEN,Kenya,4.81,77.0,4.0,N,Rank,77.0
 1970,KE,KEN,Kenya,4.81,77.0,4.0,N,Quartile,4.0
 1970,KR,KOR,"Korea, Rep.",5.9,46.0,2.0,1B,Transfers and subsidies,9.87
 1970,KR,KOR,"Korea, Rep.",5.9,46.0,2.0,1C,Government investment,7.51
 1970,KR,KOR,"Korea, Rep.",5.9,46.0,2.0,1E,State ownership of Assets,6.96
-1970,KR,KOR,"Korea, Rep.",5.9,46.0,2.0,Area1,Size of Government,8.0
+1970,KR,KOR,"Korea, Rep.",5.9,46.0,2.0,Area1,Size of Government,6.85
+1970,KR,KOR,"Korea, Rep.",5.9,46.0,2.0,Area2,Legal System And Property Rights,4.72
+1970,KR,KOR,"Korea, Rep.",5.9,46.0,2.0,Area3,Sound Money,4.67
+1970,KR,KOR,"Korea, Rep.",5.9,46.0,2.0,Area4,Freedom to trade internationally,5.6
+1970,KR,KOR,"Korea, Rep.",5.9,46.0,2.0,Area5,Regulation,3.53
 1970,KR,KOR,"Korea, Rep.",5.9,46.0,2.0,N,Economic Freedom Summary Index,5.9
 1970,KR,KOR,"Korea, Rep.",5.9,46.0,2.0,N,Rank,46.0
 1970,KR,KOR,"Korea, Rep.",5.9,46.0,2.0,N,Quartile,2.0
 1970,KW,KWT,Kuwait,6.67,29.0,2.0,1E,State ownership of Assets,6.24
-1970,KW,KWT,Kuwait,6.67,29.0,2.0,Area1,Size of Government,84.0
+1970,KW,KWT,Kuwait,6.67,29.0,2.0,Area1,Size of Government,7.85
+1970,KW,KWT,Kuwait,6.67,29.0,2.0,Area2,Legal System And Property Rights,4.76
+1970,KW,KWT,Kuwait,6.67,29.0,2.0,Area3,Sound Money,10.0
+1970,KW,KWT,Kuwait,6.67,29.0,2.0,Area5,Regulation,7.56
 1970,KW,KWT,Kuwait,6.67,29.0,2.0,N,Economic Freedom Summary Index,6.67
 1970,KW,KWT,Kuwait,6.67,29.0,2.0,N,Rank,29.0
 1970,KW,KWT,Kuwait,6.67,29.0,2.0,N,Quartile,2.0
 1970,LA,LAO,Lao PDR,,,,1E,State ownership of Assets,8.0
+1970,LA,LAO,Lao PDR,,,,Area2,Legal System And Property Rights,3.02
 1970,LB,LBN,Lebanon,,,,1E,State ownership of Assets,8.21
+1970,LB,LBN,Lebanon,,,,Area2,Legal System And Property Rights,3.24
 1970,LS,LSO,Lesotho,,,,1E,State ownership of Assets,6.21
+1970,LS,LSO,Lesotho,,,,Area2,Legal System And Property Rights,2.94
 1970,LR,LBR,Liberia,,,,1E,State ownership of Assets,7.12
+1970,LR,LBR,Liberia,,,,Area2,Legal System And Property Rights,2.4
 1970,LY,LBY,Libya,,,,1E,State ownership of Assets,2.21
+1970,LY,LBY,Libya,,,,Area2,Legal System And Property Rights,1.77
 1970,LU,LUX,Luxembourg,8.12,2.0,1.0,1B,Transfers and subsidies,5.3
 1970,LU,LUX,Luxembourg,8.12,2.0,1.0,1E,State ownership of Assets,8.66
-1970,LU,LUX,Luxembourg,8.12,2.0,1.0,Area1,Size of Government,34.0
+1970,LU,LUX,Luxembourg,8.12,2.0,1.0,Area1,Size of Government,6.23
+1970,LU,LUX,Luxembourg,8.12,2.0,1.0,Area2,Legal System And Property Rights,6.13
+1970,LU,LUX,Luxembourg,8.12,2.0,1.0,Area3,Sound Money,8.4
+1970,LU,LUX,Luxembourg,8.12,2.0,1.0,Area4,Freedom to trade internationally,9.6
+1970,LU,LUX,Luxembourg,8.12,2.0,1.0,Area5,Regulation,7.16
 1970,LU,LUX,Luxembourg,8.12,2.0,1.0,N,Economic Freedom Summary Index,8.12
 1970,LU,LUX,Luxembourg,8.12,2.0,1.0,N,Rank,2.0
 1970,LU,LUX,Luxembourg,8.12,2.0,1.0,N,Quartile,1.0
 1970,MG,MDG,Madagascar,5.84,47.0,2.0,1B,Transfers and subsidies,9.01
 1970,MG,MDG,Madagascar,5.84,47.0,2.0,1E,State ownership of Assets,6.56
-1970,MG,MDG,Madagascar,5.84,47.0,2.0,Area1,Size of Government,20.0
+1970,MG,MDG,Madagascar,5.84,47.0,2.0,Area1,Size of Government,5.92
+1970,MG,MDG,Madagascar,5.84,47.0,2.0,Area2,Legal System And Property Rights,3.56
+1970,MG,MDG,Madagascar,5.84,47.0,2.0,Area3,Sound Money,6.69
+1970,MG,MDG,Madagascar,5.84,47.0,2.0,Area4,Freedom to trade internationally,3.1
+1970,MG,MDG,Madagascar,5.84,47.0,2.0,Area5,Regulation,3.5
 1970,MG,MDG,Madagascar,5.84,47.0,2.0,N,Economic Freedom Summary Index,5.84
 1970,MG,MDG,Madagascar,5.84,47.0,2.0,N,Rank,47.0
 1970,MG,MDG,Madagascar,5.84,47.0,2.0,N,Quartile,2.0
 1970,MW,MWI,Malawi,5.58,58.0,3.0,1B,Transfers and subsidies,9.64
 1970,MW,MWI,Malawi,5.58,58.0,3.0,1C,Government investment,5.75
 1970,MW,MWI,Malawi,5.58,58.0,3.0,1E,State ownership of Assets,3.85
-1970,MW,MWI,Malawi,5.58,58.0,3.0,Area1,Size of Government,55.0
+1970,MW,MWI,Malawi,5.58,58.0,3.0,Area1,Size of Government,4.46
+1970,MW,MWI,Malawi,5.58,58.0,3.0,Area2,Legal System And Property Rights,4.42
+1970,MW,MWI,Malawi,5.58,58.0,3.0,Area3,Sound Money,6.42
+1970,MW,MWI,Malawi,5.58,58.0,3.0,Area4,Freedom to trade internationally,6.3
+1970,MW,MWI,Malawi,5.58,58.0,3.0,Area5,Regulation,4.1
 1970,MW,MWI,Malawi,5.58,58.0,3.0,N,Economic Freedom Summary Index,5.58
 1970,MW,MWI,Malawi,5.58,58.0,3.0,N,Rank,58.0
 1970,MW,MWI,Malawi,5.58,58.0,3.0,N,Quartile,3.0
 1970,MY,MYS,Malaysia,6.65,30.0,2.0,1B,Transfers and subsidies,8.14
 1970,MY,MYS,Malaysia,6.65,30.0,2.0,1E,State ownership of Assets,6.52
-1970,MY,MYS,Malaysia,6.65,30.0,2.0,Area1,Size of Government,50.0
+1970,MY,MYS,Malaysia,6.65,30.0,2.0,Area1,Size of Government,5.99
+1970,MY,MYS,Malaysia,6.65,30.0,2.0,Area2,Legal System And Property Rights,6.19
+1970,MY,MYS,Malaysia,6.65,30.0,2.0,Area3,Sound Money,7.12
+1970,MY,MYS,Malaysia,6.65,30.0,2.0,Area4,Freedom to trade internationally,7.04
+1970,MY,MYS,Malaysia,6.65,30.0,2.0,Area5,Regulation,7.01
 1970,MY,MYS,Malaysia,6.65,30.0,2.0,N,Economic Freedom Summary Index,6.65
 1970,MY,MYS,Malaysia,6.65,30.0,2.0,N,Rank,30.0
 1970,MY,MYS,Malaysia,6.65,30.0,2.0,N,Quartile,2.0
 1970,ML,MLI,Mali,5.65,54.0,3.0,1E,State ownership of Assets,5.71
-1970,ML,MLI,Mali,5.65,54.0,3.0,Area1,Size of Government,39.0
+1970,ML,MLI,Mali,5.65,54.0,3.0,Area1,Size of Government,7.19
+1970,ML,MLI,Mali,5.65,54.0,3.0,Area2,Legal System And Property Rights,2.51
+1970,ML,MLI,Mali,5.65,54.0,3.0,Area3,Sound Money,6.03
+1970,ML,MLI,Mali,5.65,54.0,3.0,Area5,Regulation,4.41
 1970,ML,MLI,Mali,5.65,54.0,3.0,N,Economic Freedom Summary Index,5.65
 1970,ML,MLI,Mali,5.65,54.0,3.0,N,Rank,54.0
 1970,ML,MLI,Mali,5.65,54.0,3.0,N,Quartile,3.0
 1970,MT,MLT,Malta,5.95,43.0,2.0,1B,Transfers and subsidies,6.52
 1970,MT,MLT,Malta,5.95,43.0,2.0,1E,State ownership of Assets,2.78
-1970,MT,MLT,Malta,5.95,43.0,2.0,Area1,Size of Government,87.0
+1970,MT,MLT,Malta,5.95,43.0,2.0,Area1,Size of Government,4.22
+1970,MT,MLT,Malta,5.95,43.0,2.0,Area2,Legal System And Property Rights,4.44
+1970,MT,MLT,Malta,5.95,43.0,2.0,Area3,Sound Money,6.94
+1970,MT,MLT,Malta,5.95,43.0,2.0,Area4,Freedom to trade internationally,5.22
+1970,MT,MLT,Malta,5.95,43.0,2.0,Area5,Regulation,4.78
 1970,MT,MLT,Malta,5.95,43.0,2.0,N,Economic Freedom Summary Index,5.95
 1970,MT,MLT,Malta,5.95,43.0,2.0,N,Rank,43.0
 1970,MT,MLT,Malta,5.95,43.0,2.0,N,Quartile,2.0
 1970,MR,MRT,Mauritania,,,,1C,Government investment,0.0
 1970,MR,MRT,Mauritania,,,,1E,State ownership of Assets,3.06
-1970,MR,MRT,Mauritania,,,,Area1,Size of Government,103.0
+1970,MR,MRT,Mauritania,,,,Area1,Size of Government,1.41
+1970,MR,MRT,Mauritania,,,,Area2,Legal System And Property Rights,4.72
 1970,MU,MUS,Mauritius,6.87,22.0,1.0,1B,Transfers and subsidies,9.26
 1970,MU,MUS,Mauritius,6.87,22.0,1.0,1E,State ownership of Assets,8.98
-1970,MU,MUS,Mauritius,6.87,22.0,1.0,Area1,Size of Government,4.0
+1970,MU,MUS,Mauritius,6.87,22.0,1.0,Area1,Size of Government,6.87
+1970,MU,MUS,Mauritius,6.87,22.0,1.0,Area2,Legal System And Property Rights,4.6
+1970,MU,MUS,Mauritius,6.87,22.0,1.0,Area3,Sound Money,7.22
+1970,MU,MUS,Mauritius,6.87,22.0,1.0,Area4,Freedom to trade internationally,1.86
+1970,MU,MUS,Mauritius,6.87,22.0,1.0,Area5,Regulation,7.37
 1970,MU,MUS,Mauritius,6.87,22.0,1.0,N,Economic Freedom Summary Index,6.87
 1970,MU,MUS,Mauritius,6.87,22.0,1.0,N,Rank,22.0
 1970,MU,MUS,Mauritius,6.87,22.0,1.0,N,Quartile,1.0
 1970,MX,MEX,Mexico,6.8,26.0,2.0,1B,Transfers and subsidies,9.52
 1970,MX,MEX,Mexico,6.8,26.0,2.0,1E,State ownership of Assets,4.49
-1970,MX,MEX,Mexico,6.8,26.0,2.0,Area1,Size of Government,17.0
+1970,MX,MEX,Mexico,6.8,26.0,2.0,Area1,Size of Government,7.34
+1970,MX,MEX,Mexico,6.8,26.0,2.0,Area2,Legal System And Property Rights,5.35
+1970,MX,MEX,Mexico,6.8,26.0,2.0,Area3,Sound Money,9.18
+1970,MX,MEX,Mexico,6.8,26.0,2.0,Area4,Freedom to trade internationally,9.63
+1970,MX,MEX,Mexico,6.8,26.0,2.0,Area5,Regulation,5.11
 1970,MX,MEX,Mexico,6.8,26.0,2.0,N,Economic Freedom Summary Index,6.8
 1970,MX,MEX,Mexico,6.8,26.0,2.0,N,Rank,26.0
 1970,MX,MEX,Mexico,6.8,26.0,2.0,N,Quartile,2.0
 1970,MN,MNG,Mongolia,,,,1E,State ownership of Assets,0.33
+1970,MN,MNG,Mongolia,,,,Area2,Legal System And Property Rights,4.31
 1970,MA,MAR,Morocco,5.2,68.0,3.0,1C,Government investment,10.0
 1970,MA,MAR,Morocco,5.2,68.0,3.0,1E,State ownership of Assets,4.46
-1970,MA,MAR,Morocco,5.2,68.0,3.0,Area1,Size of Government,30.0
+1970,MA,MAR,Morocco,5.2,68.0,3.0,Area1,Size of Government,7.95
+1970,MA,MAR,Morocco,5.2,68.0,3.0,Area2,Legal System And Property Rights,2.97
+1970,MA,MAR,Morocco,5.2,68.0,3.0,Area3,Sound Money,6.95
+1970,MA,MAR,Morocco,5.2,68.0,3.0,Area4,Freedom to trade internationally,4.96
+1970,MA,MAR,Morocco,5.2,68.0,3.0,Area5,Regulation,3.71
 1970,MA,MAR,Morocco,5.2,68.0,3.0,N,Economic Freedom Summary Index,5.2
 1970,MA,MAR,Morocco,5.2,68.0,3.0,N,Rank,68.0
 1970,MA,MAR,Morocco,5.2,68.0,3.0,N,Quartile,3.0
 1970,MZ,MOZ,Mozambique,,,,1E,State ownership of Assets,4.75
+1970,MZ,MOZ,Mozambique,,,,Area2,Legal System And Property Rights,2.02
 1970,MM,MMR,Myanmar,2.97,95.0,4.0,1E,State ownership of Assets,2.06
+1970,MM,MMR,Myanmar,2.97,95.0,4.0,Area2,Legal System And Property Rights,2.42
+1970,MM,MMR,Myanmar,2.97,95.0,4.0,Area3,Sound Money,6.54
+1970,MM,MMR,Myanmar,2.97,95.0,4.0,Area4,Freedom to trade internationally,10.0
+1970,MM,MMR,Myanmar,2.97,95.0,4.0,Area5,Regulation,2.52
 1970,MM,MMR,Myanmar,2.97,95.0,4.0,N,Economic Freedom Summary Index,2.97
 1970,MM,MMR,Myanmar,2.97,95.0,4.0,N,Rank,95.0
 1970,MM,MMR,Myanmar,2.97,95.0,4.0,N,Quartile,4.0
 1970,,NAM,Namibia,,,,1E,State ownership of Assets,7.95
+1970,,NAM,Namibia,,,,Area2,Legal System And Property Rights,2.58
 1970,NP,NPL,Nepal,2.89,96.0,4.0,1E,State ownership of Assets,2.97
+1970,NP,NPL,Nepal,2.89,96.0,4.0,Area2,Legal System And Property Rights,3.39
+1970,NP,NPL,Nepal,2.89,96.0,4.0,Area3,Sound Money,6.23
+1970,NP,NPL,Nepal,2.89,96.0,4.0,Area4,Freedom to trade internationally,0.46
+1970,NP,NPL,Nepal,2.89,96.0,4.0,Area5,Regulation,3.39
 1970,NP,NPL,Nepal,2.89,96.0,4.0,N,Economic Freedom Summary Index,2.89
 1970,NP,NPL,Nepal,2.89,96.0,4.0,N,Rank,96.0
 1970,NP,NPL,Nepal,2.89,96.0,4.0,N,Quartile,4.0
 1970,NL,NLD,Netherlands,7.78,10.0,1.0,1B,Transfers and subsidies,5.04
 1970,NL,NLD,Netherlands,7.78,10.0,1.0,1C,Government investment,6.78
 1970,NL,NLD,Netherlands,7.78,10.0,1.0,1E,State ownership of Assets,7.56
-1970,NL,NLD,Netherlands,7.78,10.0,1.0,Area1,Size of Government,59.0
+1970,NL,NLD,Netherlands,7.78,10.0,1.0,Area1,Size of Government,5.77
+1970,NL,NLD,Netherlands,7.78,10.0,1.0,Area2,Legal System And Property Rights,8.12
+1970,NL,NLD,Netherlands,7.78,10.0,1.0,Area3,Sound Money,9.47
+1970,NL,NLD,Netherlands,7.78,10.0,1.0,Area4,Freedom to trade internationally,7.11
+1970,NL,NLD,Netherlands,7.78,10.0,1.0,Area5,Regulation,6.2
 1970,NL,NLD,Netherlands,7.78,10.0,1.0,N,Economic Freedom Summary Index,7.78
 1970,NL,NLD,Netherlands,7.78,10.0,1.0,N,Rank,10.0
 1970,NL,NLD,Netherlands,7.78,10.0,1.0,N,Quartile,1.0
 1970,NZ,NZL,New Zealand,6.88,21.0,1.0,1C,Government investment,5.76
 1970,NZ,NZL,New Zealand,6.88,21.0,1.0,1E,State ownership of Assets,5.83
-1970,NZ,NZL,New Zealand,6.88,21.0,1.0,Area1,Size of Government,66.0
+1970,NZ,NZL,New Zealand,6.88,21.0,1.0,Area1,Size of Government,5.27
+1970,NZ,NZL,New Zealand,6.88,21.0,1.0,Area2,Legal System And Property Rights,8.54
+1970,NZ,NZL,New Zealand,6.88,21.0,1.0,Area3,Sound Money,6.19
+1970,NZ,NZL,New Zealand,6.88,21.0,1.0,Area4,Freedom to trade internationally,5.81
+1970,NZ,NZL,New Zealand,6.88,21.0,1.0,Area5,Regulation,7.35
 1970,NZ,NZL,New Zealand,6.88,21.0,1.0,N,Economic Freedom Summary Index,6.88
 1970,NZ,NZL,New Zealand,6.88,21.0,1.0,N,Rank,21.0
 1970,NZ,NZL,New Zealand,6.88,21.0,1.0,N,Quartile,1.0
 1970,NI,NIC,Nicaragua,6.19,38.0,2.0,1E,State ownership of Assets,5.22
-1970,NI,NIC,Nicaragua,6.19,38.0,2.0,Area1,Size of Government,47.0
+1970,NI,NIC,Nicaragua,6.19,38.0,2.0,Area1,Size of Government,6.47
+1970,NI,NIC,Nicaragua,6.19,38.0,2.0,Area2,Legal System And Property Rights,1.9
+1970,NI,NIC,Nicaragua,6.19,38.0,2.0,Area3,Sound Money,9.39
+1970,NI,NIC,Nicaragua,6.19,38.0,2.0,Area4,Freedom to trade internationally,3.99
 1970,NI,NIC,Nicaragua,6.19,38.0,2.0,N,Economic Freedom Summary Index,6.19
 1970,NI,NIC,Nicaragua,6.19,38.0,2.0,N,Rank,38.0
 1970,NI,NIC,Nicaragua,6.19,38.0,2.0,N,Quartile,2.0
 1970,NE,NER,Niger,6.28,36.0,2.0,1C,Government investment,10.0
 1970,NE,NER,Niger,6.28,36.0,2.0,1E,State ownership of Assets,5.7
-1970,NE,NER,Niger,6.28,36.0,2.0,Area1,Size of Government,6.0
+1970,NE,NER,Niger,6.28,36.0,2.0,Area1,Size of Government,8.67
+1970,NE,NER,Niger,6.28,36.0,2.0,Area2,Legal System And Property Rights,3.63
+1970,NE,NER,Niger,6.28,36.0,2.0,Area3,Sound Money,6.45
+1970,NE,NER,Niger,6.28,36.0,2.0,Area5,Regulation,3.75
 1970,NE,NER,Niger,6.28,36.0,2.0,N,Economic Freedom Summary Index,6.28
 1970,NE,NER,Niger,6.28,36.0,2.0,N,Rank,36.0
 1970,NE,NER,Niger,6.28,36.0,2.0,N,Quartile,2.0
 1970,NG,NGA,Nigeria,3.36,94.0,4.0,1B,Transfers and subsidies,9.92
 1970,NG,NGA,Nigeria,3.36,94.0,4.0,1E,State ownership of Assets,5.32
-1970,NG,NGA,Nigeria,3.36,94.0,4.0,Area1,Size of Government,11.0
+1970,NG,NGA,Nigeria,3.36,94.0,4.0,Area1,Size of Government,4.61
+1970,NG,NGA,Nigeria,3.36,94.0,4.0,Area2,Legal System And Property Rights,2.03
+1970,NG,NGA,Nigeria,3.36,94.0,4.0,Area3,Sound Money,2.62
+1970,NG,NGA,Nigeria,3.36,94.0,4.0,Area4,Freedom to trade internationally,1.16
+1970,NG,NGA,Nigeria,3.36,94.0,4.0,Area5,Regulation,1.89
 1970,NG,NGA,Nigeria,3.36,94.0,4.0,N,Economic Freedom Summary Index,3.36
 1970,NG,NGA,Nigeria,3.36,94.0,4.0,N,Rank,94.0
 1970,NG,NGA,Nigeria,3.36,94.0,4.0,N,Quartile,4.0
 1970,NO,NOR,Norway,7.26,16.0,1.0,1B,Transfers and subsidies,4.54
 1970,NO,NOR,Norway,7.26,16.0,1.0,1C,Government investment,10.0
 1970,NO,NOR,Norway,7.26,16.0,1.0,1E,State ownership of Assets,6.68
-1970,NO,NOR,Norway,7.26,16.0,1.0,Area1,Size of Government,54.0
+1970,NO,NOR,Norway,7.26,16.0,1.0,Area1,Size of Government,4.98
+1970,NO,NOR,Norway,7.26,16.0,1.0,Area2,Legal System And Property Rights,9.06
+1970,NO,NOR,Norway,7.26,16.0,1.0,Area3,Sound Money,6.25
+1970,NO,NOR,Norway,7.26,16.0,1.0,Area4,Freedom to trade internationally,6.95
+1970,NO,NOR,Norway,7.26,16.0,1.0,Area5,Regulation,6.74
 1970,NO,NOR,Norway,7.26,16.0,1.0,N,Economic Freedom Summary Index,7.26
 1970,NO,NOR,Norway,7.26,16.0,1.0,N,Rank,16.0
 1970,NO,NOR,Norway,7.26,16.0,1.0,N,Quartile,1.0
 1970,OM,OMN,Oman,,,,1B,Transfers and subsidies,9.27
 1970,OM,OMN,Oman,,,,1E,State ownership of Assets,4.4
-1970,OM,OMN,Oman,,,,Area1,Size of Government,91.0
+1970,OM,OMN,Oman,,,,Area1,Size of Government,4.67
+1970,OM,OMN,Oman,,,,Area2,Legal System And Property Rights,3.59
+1970,OM,OMN,Oman,,,,Area3,Sound Money,10.0
 1970,PK,PAK,Pakistan,4.79,78.0,4.0,1B,Transfers and subsidies,10.0
 1970,PK,PAK,Pakistan,4.79,78.0,4.0,1C,Government investment,5.57
 1970,PK,PAK,Pakistan,4.79,78.0,4.0,1E,State ownership of Assets,5.67
-1970,PK,PAK,Pakistan,4.79,78.0,4.0,Area1,Size of Government,28.0
+1970,PK,PAK,Pakistan,4.79,78.0,4.0,Area1,Size of Government,6.15
+1970,PK,PAK,Pakistan,4.79,78.0,4.0,Area2,Legal System And Property Rights,3.3
+1970,PK,PAK,Pakistan,4.79,78.0,4.0,Area3,Sound Money,6.98
+1970,PK,PAK,Pakistan,4.79,78.0,4.0,Area4,Freedom to trade internationally,0.61
+1970,PK,PAK,Pakistan,4.79,78.0,4.0,Area5,Regulation,6.72
 1970,PK,PAK,Pakistan,4.79,78.0,4.0,N,Economic Freedom Summary Index,4.79
 1970,PK,PAK,Pakistan,4.79,78.0,4.0,N,Rank,78.0
 1970,PK,PAK,Pakistan,4.79,78.0,4.0,N,Quartile,4.0
 1970,PA,PAN,Panama,6.82,24.0,1.0,1C,Government investment,6.8
 1970,PA,PAN,Panama,6.82,24.0,1.0,1E,State ownership of Assets,5.75
-1970,PA,PAN,Panama,6.82,24.0,1.0,Area1,Size of Government,60.0
+1970,PA,PAN,Panama,6.82,24.0,1.0,Area1,Size of Government,5.93
+1970,PA,PAN,Panama,6.82,24.0,1.0,Area2,Legal System And Property Rights,3.84
+1970,PA,PAN,Panama,6.82,24.0,1.0,Area3,Sound Money,9.71
+1970,PA,PAN,Panama,6.82,24.0,1.0,Area4,Freedom to trade internationally,6.72
+1970,PA,PAN,Panama,6.82,24.0,1.0,Area5,Regulation,4.92
 1970,PA,PAN,Panama,6.82,24.0,1.0,N,Economic Freedom Summary Index,6.82
 1970,PA,PAN,Panama,6.82,24.0,1.0,N,Rank,24.0
 1970,PA,PAN,Panama,6.82,24.0,1.0,N,Quartile,1.0
 1970,PG,PNG,Papua New Guinea,6.95,20.0,1.0,1E,State ownership of Assets,9.01
-1970,PG,PNG,Papua New Guinea,6.95,20.0,1.0,Area1,Size of Government,74.0
+1970,PG,PNG,Papua New Guinea,6.95,20.0,1.0,Area1,Size of Government,5.1
+1970,PG,PNG,Papua New Guinea,6.95,20.0,1.0,Area2,Legal System And Property Rights,4.32
+1970,PG,PNG,Papua New Guinea,6.95,20.0,1.0,Area3,Sound Money,6.77
+1970,PG,PNG,Papua New Guinea,6.95,20.0,1.0,Area5,Regulation,7.24
 1970,PG,PNG,Papua New Guinea,6.95,20.0,1.0,N,Economic Freedom Summary Index,6.95
 1970,PG,PNG,Papua New Guinea,6.95,20.0,1.0,N,Rank,20.0
 1970,PG,PNG,Papua New Guinea,6.95,20.0,1.0,N,Quartile,1.0
 1970,PY,PRY,Paraguay,6.11,40.0,2.0,1B,Transfers and subsidies,9.71
 1970,PY,PRY,Paraguay,6.11,40.0,2.0,1C,Government investment,10.0
 1970,PY,PRY,Paraguay,6.11,40.0,2.0,1E,State ownership of Assets,6.63
-1970,PY,PRY,Paraguay,6.11,40.0,2.0,Area1,Size of Government,3.0
+1970,PY,PRY,Paraguay,6.11,40.0,2.0,Area1,Size of Government,8.45
+1970,PY,PRY,Paraguay,6.11,40.0,2.0,Area2,Legal System And Property Rights,2.15
+1970,PY,PRY,Paraguay,6.11,40.0,2.0,Area3,Sound Money,9.47
+1970,PY,PRY,Paraguay,6.11,40.0,2.0,Area4,Freedom to trade internationally,3.14
 1970,PY,PRY,Paraguay,6.11,40.0,2.0,N,Economic Freedom Summary Index,6.11
 1970,PY,PRY,Paraguay,6.11,40.0,2.0,N,Rank,40.0
 1970,PY,PRY,Paraguay,6.11,40.0,2.0,N,Quartile,2.0
 1970,PE,PER,Peru,5.25,66.0,3.0,1B,Transfers and subsidies,9.5
 1970,PE,PER,Peru,5.25,66.0,3.0,1C,Government investment,10.0
 1970,PE,PER,Peru,5.25,66.0,3.0,1E,State ownership of Assets,3.9
-1970,PE,PER,Peru,5.25,66.0,3.0,Area1,Size of Government,21.0
+1970,PE,PER,Peru,5.25,66.0,3.0,Area1,Size of Government,6.87
+1970,PE,PER,Peru,5.25,66.0,3.0,Area2,Legal System And Property Rights,3.58
+1970,PE,PER,Peru,5.25,66.0,3.0,Area3,Sound Money,5.94
+1970,PE,PER,Peru,5.25,66.0,3.0,Area4,Freedom to trade internationally,3.52
+1970,PE,PER,Peru,5.25,66.0,3.0,Area5,Regulation,4.15
 1970,PE,PER,Peru,5.25,66.0,3.0,N,Economic Freedom Summary Index,5.25
 1970,PE,PER,Peru,5.25,66.0,3.0,N,Rank,66.0
 1970,PE,PER,Peru,5.25,66.0,3.0,N,Quartile,3.0
 1970,PH,PHL,Philippines,4.92,73.0,4.0,1B,Transfers and subsidies,10.0
 1970,PH,PHL,Philippines,4.92,73.0,4.0,1E,State ownership of Assets,6.25
-1970,PH,PHL,Philippines,4.92,73.0,4.0,Area1,Size of Government,9.0
+1970,PH,PHL,Philippines,4.92,73.0,4.0,Area1,Size of Government,7.52
+1970,PH,PHL,Philippines,4.92,73.0,4.0,Area2,Legal System And Property Rights,4.05
+1970,PH,PHL,Philippines,4.92,73.0,4.0,Area3,Sound Money,6.75
+1970,PH,PHL,Philippines,4.92,73.0,4.0,Area4,Freedom to trade internationally,2.17
+1970,PH,PHL,Philippines,4.92,73.0,4.0,Area5,Regulation,4.49
 1970,PH,PHL,Philippines,4.92,73.0,4.0,N,Economic Freedom Summary Index,4.92
 1970,PH,PHL,Philippines,4.92,73.0,4.0,N,Rank,73.0
 1970,PH,PHL,Philippines,4.92,73.0,4.0,N,Quartile,4.0
 1970,PL,POL,Poland,,,,1E,State ownership of Assets,3.19
+1970,PL,POL,Poland,,,,Area2,Legal System And Property Rights,4.04
+1970,PL,POL,Poland,,,,Area5,Regulation,2.31
 1970,PT,PRT,Portugal,5.51,59.0,3.0,1D,Top marginal income tax rate,3.0
 1970,PT,PRT,Portugal,5.51,59.0,3.0,1E,State ownership of Assets,7.1
-1970,PT,PRT,Portugal,5.51,59.0,3.0,Area1,Size of Government,73.0
+1970,PT,PRT,Portugal,5.51,59.0,3.0,Area1,Size of Government,7.05
+1970,PT,PRT,Portugal,5.51,59.0,3.0,Area2,Legal System And Property Rights,3.02
+1970,PT,PRT,Portugal,5.51,59.0,3.0,Area3,Sound Money,7.15
+1970,PT,PRT,Portugal,5.51,59.0,3.0,Area4,Freedom to trade internationally,6.39
+1970,PT,PRT,Portugal,5.51,59.0,3.0,Area5,Regulation,3.51
 1970,PT,PRT,Portugal,5.51,59.0,3.0,N,Economic Freedom Summary Index,5.51
 1970,PT,PRT,Portugal,5.51,59.0,3.0,N,Rank,59.0
 1970,PT,PRT,Portugal,5.51,59.0,3.0,N,Quartile,3.0
 1970,QA,QAT,Qatar,,,,1E,State ownership of Assets,3.62
+1970,QA,QAT,Qatar,,,,Area2,Legal System And Property Rights,4.36
 1970,RO,ROU,Romania,,,,1E,State ownership of Assets,0.35
+1970,RO,ROU,Romania,,,,Area2,Legal System And Property Rights,5.5
+1970,RO,ROU,Romania,,,,Area5,Regulation,1.24
 1970,RU,RUS,Russian Federation,,,,1E,State ownership of Assets,0.13
+1970,RU,RUS,Russian Federation,,,,Area2,Legal System And Property Rights,4.56
+1970,RU,RUS,Russian Federation,,,,Area5,Regulation,2.31
 1970,RW,RWA,Rwanda,5.24,67.0,3.0,1E,State ownership of Assets,4.26
-1970,RW,RWA,Rwanda,5.24,67.0,3.0,Area1,Size of Government,51.0
+1970,RW,RWA,Rwanda,5.24,67.0,3.0,Area1,Size of Government,6.05
+1970,RW,RWA,Rwanda,5.24,67.0,3.0,Area2,Legal System And Property Rights,5.01
+1970,RW,RWA,Rwanda,5.24,67.0,3.0,Area3,Sound Money,4.57
+1970,RW,RWA,Rwanda,5.24,67.0,3.0,Area5,Regulation,3.44
 1970,RW,RWA,Rwanda,5.24,67.0,3.0,N,Economic Freedom Summary Index,5.24
 1970,RW,RWA,Rwanda,5.24,67.0,3.0,N,Rank,67.0
 1970,RW,RWA,Rwanda,5.24,67.0,3.0,N,Quartile,3.0
 1970,SA,SAU,Saudi Arabia,,,,1E,State ownership of Assets,3.92
+1970,SA,SAU,Saudi Arabia,,,,Area2,Legal System And Property Rights,4.03
 1970,SN,SEN,Senegal,4.96,71.0,3.0,1C,Government investment,5.12
 1970,SN,SEN,Senegal,4.96,71.0,3.0,1E,State ownership of Assets,3.5
-1970,SN,SEN,Senegal,4.96,71.0,3.0,Area1,Size of Government,82.0
+1970,SN,SEN,Senegal,4.96,71.0,3.0,Area1,Size of Government,5.14
+1970,SN,SEN,Senegal,4.96,71.0,3.0,Area2,Legal System And Property Rights,3.35
+1970,SN,SEN,Senegal,4.96,71.0,3.0,Area3,Sound Money,6.97
+1970,SN,SEN,Senegal,4.96,71.0,3.0,Area4,Freedom to trade internationally,3.8
 1970,SN,SEN,Senegal,4.96,71.0,3.0,N,Economic Freedom Summary Index,4.96
 1970,SN,SEN,Senegal,4.96,71.0,3.0,N,Rank,71.0
 1970,SN,SEN,Senegal,4.96,71.0,3.0,N,Quartile,3.0
 1970,RS,SRB,Serbia,,,,1E,State ownership of Assets,2.93
+1970,RS,SRB,Serbia,,,,Area2,Legal System And Property Rights,5.8
 1970,SC,SYC,Seychelles,,,,1E,State ownership of Assets,4.68
+1970,SC,SYC,Seychelles,,,,Area2,Legal System And Property Rights,5.49
 1970,SL,SLE,Sierra Leone,,,,1E,State ownership of Assets,5.17
+1970,SL,SLE,Sierra Leone,,,,Area2,Legal System And Property Rights,2.92
+1970,SL,SLE,Sierra Leone,,,,Area3,Sound Money,6.97
+1970,SL,SLE,Sierra Leone,,,,Area5,Regulation,5.04
 1970,SG,SGP,Singapore,7.15,17.0,1.0,1B,Transfers and subsidies,9.65
 1970,SG,SGP,Singapore,7.15,17.0,1.0,1D,Top marginal income tax rate,4.0
 1970,SG,SGP,Singapore,7.15,17.0,1.0,1E,State ownership of Assets,4.32
-1970,SG,SGP,Singapore,7.15,17.0,1.0,Area1,Size of Government,56.0
+1970,SG,SGP,Singapore,7.15,17.0,1.0,Area1,Size of Government,6.38
+1970,SG,SGP,Singapore,7.15,17.0,1.0,Area2,Legal System And Property Rights,7.72
+1970,SG,SGP,Singapore,7.15,17.0,1.0,Area3,Sound Money,7.32
+1970,SG,SGP,Singapore,7.15,17.0,1.0,Area4,Freedom to trade internationally,7.89
+1970,SG,SGP,Singapore,7.15,17.0,1.0,Area5,Regulation,8.3
 1970,SG,SGP,Singapore,7.15,17.0,1.0,N,Economic Freedom Summary Index,7.15
 1970,SG,SGP,Singapore,7.15,17.0,1.0,N,Rank,17.0
 1970,SG,SGP,Singapore,7.15,17.0,1.0,N,Quartile,1.0
@@ -529,473 +868,134 @@ Year,ISO Code 2,ISO Code 3,Countries, Economic Freedom Summary Index,Rank,Quarti
 1970,ZA,ZAF,South Africa,6.04,42.0,2.0,1B,Transfers and subsidies,9.32
 1970,ZA,ZAF,South Africa,6.04,42.0,2.0,1C,Government investment,4.46
 1970,ZA,ZAF,South Africa,6.04,42.0,2.0,1E,State ownership of Assets,7.38
-1970,ZA,ZAF,South Africa,6.04,42.0,2.0,Area1,Size of Government,43.0
+1970,ZA,ZAF,South Africa,6.04,42.0,2.0,Area1,Size of Government,5.82
+1970,ZA,ZAF,South Africa,6.04,42.0,2.0,Area2,Legal System And Property Rights,3.18
+1970,ZA,ZAF,South Africa,6.04,42.0,2.0,Area3,Sound Money,7.16
+1970,ZA,ZAF,South Africa,6.04,42.0,2.0,Area4,Freedom to trade internationally,7.15
+1970,ZA,ZAF,South Africa,6.04,42.0,2.0,Area5,Regulation,4.02
 1970,ZA,ZAF,South Africa,6.04,42.0,2.0,N,Economic Freedom Summary Index,6.04
 1970,ZA,ZAF,South Africa,6.04,42.0,2.0,N,Rank,42.0
 1970,ZA,ZAF,South Africa,6.04,42.0,2.0,N,Quartile,2.0
 1970,ES,ESP,Spain,5.81,48.0,2.0,1B,Transfers and subsidies,8.39
 1970,ES,ESP,Spain,5.81,48.0,2.0,1E,State ownership of Assets,6.29
-1970,ES,ESP,Spain,5.81,48.0,2.0,Area1,Size of Government,23.0
+1970,ES,ESP,Spain,5.81,48.0,2.0,Area1,Size of Government,7.86
+1970,ES,ESP,Spain,5.81,48.0,2.0,Area2,Legal System And Property Rights,3.37
+1970,ES,ESP,Spain,5.81,48.0,2.0,Area3,Sound Money,6.92
+1970,ES,ESP,Spain,5.81,48.0,2.0,Area4,Freedom to trade internationally,5.77
+1970,ES,ESP,Spain,5.81,48.0,2.0,Area5,Regulation,4.69
 1970,ES,ESP,Spain,5.81,48.0,2.0,N,Economic Freedom Summary Index,5.81
 1970,ES,ESP,Spain,5.81,48.0,2.0,N,Rank,48.0
 1970,ES,ESP,Spain,5.81,48.0,2.0,N,Quartile,2.0
 1970,LK,LKA,Sri Lanka,4.76,80.0,4.0,1B,Transfers and subsidies,8.02
 1970,LK,LKA,Sri Lanka,4.76,80.0,4.0,1C,Government investment,7.38
 1970,LK,LKA,Sri Lanka,4.76,80.0,4.0,1E,State ownership of Assets,4.45
-1970,LK,LKA,Sri Lanka,4.76,80.0,4.0,Area1,Size of Government,48.0
+1970,LK,LKA,Sri Lanka,4.76,80.0,4.0,Area1,Size of Government,6.7
+1970,LK,LKA,Sri Lanka,4.76,80.0,4.0,Area2,Legal System And Property Rights,5.53
+1970,LK,LKA,Sri Lanka,4.76,80.0,4.0,Area3,Sound Money,6.82
+1970,LK,LKA,Sri Lanka,4.76,80.0,4.0,Area4,Freedom to trade internationally,0.09
 1970,LK,LKA,Sri Lanka,4.76,80.0,4.0,N,Economic Freedom Summary Index,4.76
 1970,LK,LKA,Sri Lanka,4.76,80.0,4.0,N,Rank,80.0
 1970,LK,LKA,Sri Lanka,4.76,80.0,4.0,N,Quartile,4.0
 1970,SD,SDN,Sudan,,,,1E,State ownership of Assets,4.54
+1970,SD,SDN,Sudan,,,,Area2,Legal System And Property Rights,2.13
 1970,SR,SUR,Suriname,,,,1E,State ownership of Assets,6.05
+1970,SR,SUR,Suriname,,,,Area2,Legal System And Property Rights,3.02
 1970,SE,SWE,Sweden,6.71,28.0,2.0,1C,Government investment,5.33
 1970,SE,SWE,Sweden,6.71,28.0,2.0,1D,Top marginal income tax rate,0.0
 1970,SE,SWE,Sweden,6.71,28.0,2.0,1E,State ownership of Assets,7.39
-1970,SE,SWE,Sweden,6.71,28.0,2.0,Area1,Size of Government,98.0
+1970,SE,SWE,Sweden,6.71,28.0,2.0,Area1,Size of Government,3.78
+1970,SE,SWE,Sweden,6.71,28.0,2.0,Area2,Legal System And Property Rights,8.79
+1970,SE,SWE,Sweden,6.71,28.0,2.0,Area3,Sound Money,6.52
+1970,SE,SWE,Sweden,6.71,28.0,2.0,Area4,Freedom to trade internationally,7.34
+1970,SE,SWE,Sweden,6.71,28.0,2.0,Area5,Regulation,6.84
 1970,SE,SWE,Sweden,6.71,28.0,2.0,N,Economic Freedom Summary Index,6.71
 1970,SE,SWE,Sweden,6.71,28.0,2.0,N,Rank,28.0
 1970,SE,SWE,Sweden,6.71,28.0,2.0,N,Quartile,2.0
 1970,CH,CHE,Switzerland,7.91,7.0,1.0,1C,Government investment,9.63
 1970,CH,CHE,Switzerland,7.91,7.0,1.0,1E,State ownership of Assets,7.73
-1970,CH,CHE,Switzerland,7.91,7.0,1.0,Area1,Size of Government,7.0
+1970,CH,CHE,Switzerland,7.91,7.0,1.0,Area1,Size of Government,7.57
+1970,CH,CHE,Switzerland,7.91,7.0,1.0,Area2,Legal System And Property Rights,7.76
+1970,CH,CHE,Switzerland,7.91,7.0,1.0,Area3,Sound Money,9.59
+1970,CH,CHE,Switzerland,7.91,7.0,1.0,Area4,Freedom to trade internationally,6.76
+1970,CH,CHE,Switzerland,7.91,7.0,1.0,Area5,Regulation,6.49
 1970,CH,CHE,Switzerland,7.91,7.0,1.0,N,Economic Freedom Summary Index,7.91
 1970,CH,CHE,Switzerland,7.91,7.0,1.0,N,Rank,7.0
 1970,CH,CHE,Switzerland,7.91,7.0,1.0,N,Quartile,1.0
 1970,SY,SYR,Syrian Arab Republic,4.14,89.0,4.0,1B,Transfers and subsidies,9.66
 1970,SY,SYR,Syrian Arab Republic,4.14,89.0,4.0,1E,State ownership of Assets,1.62
-1970,SY,SYR,Syrian Arab Republic,4.14,89.0,4.0,Area1,Size of Government,70.0
+1970,SY,SYR,Syrian Arab Republic,4.14,89.0,4.0,Area1,Size of Government,3.44
+1970,SY,SYR,Syrian Arab Republic,4.14,89.0,4.0,Area2,Legal System And Property Rights,1.75
+1970,SY,SYR,Syrian Arab Republic,4.14,89.0,4.0,Area3,Sound Money,6.62
+1970,SY,SYR,Syrian Arab Republic,4.14,89.0,4.0,Area4,Freedom to trade internationally,2.7
+1970,SY,SYR,Syrian Arab Republic,4.14,89.0,4.0,Area5,Regulation,1.96
 1970,SY,SYR,Syrian Arab Republic,4.14,89.0,4.0,N,Economic Freedom Summary Index,4.14
 1970,SY,SYR,Syrian Arab Republic,4.14,89.0,4.0,N,Rank,89.0
 1970,SY,SYR,Syrian Arab Republic,4.14,89.0,4.0,N,Quartile,4.0
 1970,TW,TWN,Taiwan,5.65,54.0,3.0,1B,Transfers and subsidies,10.0
 1970,TW,TWN,Taiwan,5.65,54.0,3.0,1C,Government investment,2.01
 1970,TW,TWN,Taiwan,5.65,54.0,3.0,1E,State ownership of Assets,6.01
-1970,TW,TWN,Taiwan,5.65,54.0,3.0,Area1,Size of Government,75.0
+1970,TW,TWN,Taiwan,5.65,54.0,3.0,Area1,Size of Government,5.08
+1970,TW,TWN,Taiwan,5.65,54.0,3.0,Area2,Legal System And Property Rights,4.67
+1970,TW,TWN,Taiwan,5.65,54.0,3.0,Area3,Sound Money,9.48
+1970,TW,TWN,Taiwan,5.65,54.0,3.0,Area5,Regulation,4.01
 1970,TW,TWN,Taiwan,5.65,54.0,3.0,N,Economic Freedom Summary Index,5.65
 1970,TW,TWN,Taiwan,5.65,54.0,3.0,N,Rank,54.0
 1970,TW,TWN,Taiwan,5.65,54.0,3.0,N,Quartile,3.0
 1970,TZ,TZA,Tanzania,4.52,82.0,4.0,1B,Transfers and subsidies,10.0
 1970,TZ,TZA,Tanzania,4.52,82.0,4.0,1D,Top marginal income tax rate,0.0
 1970,TZ,TZA,Tanzania,4.52,82.0,4.0,1E,State ownership of Assets,2.25
-1970,TZ,TZA,Tanzania,4.52,82.0,4.0,Area1,Size of Government,96.0
+1970,TZ,TZA,Tanzania,4.52,82.0,4.0,Area1,Size of Government,3.62
+1970,TZ,TZA,Tanzania,4.52,82.0,4.0,Area2,Legal System And Property Rights,5.83
+1970,TZ,TZA,Tanzania,4.52,82.0,4.0,Area3,Sound Money,6.46
+1970,TZ,TZA,Tanzania,4.52,82.0,4.0,Area4,Freedom to trade internationally,3.06
+1970,TZ,TZA,Tanzania,4.52,82.0,4.0,Area5,Regulation,3.58
 1970,TZ,TZA,Tanzania,4.52,82.0,4.0,N,Economic Freedom Summary Index,4.52
 1970,TZ,TZA,Tanzania,4.52,82.0,4.0,N,Rank,82.0
 1970,TZ,TZA,Tanzania,4.52,82.0,4.0,N,Quartile,4.0
 1970,TH,THA,Thailand,5.92,44.0,2.0,1B,Transfers and subsidies,10.0
 1970,TH,THA,Thailand,5.92,44.0,2.0,1C,Government investment,5.8
 1970,TH,THA,Thailand,5.92,44.0,2.0,1E,State ownership of Assets,6.25
-1970,TH,THA,Thailand,5.92,44.0,2.0,Area1,Size of Government,29.0
+1970,TH,THA,Thailand,5.92,44.0,2.0,Area1,Size of Government,6.5
+1970,TH,THA,Thailand,5.92,44.0,2.0,Area2,Legal System And Property Rights,4.6
+1970,TH,THA,Thailand,5.92,44.0,2.0,Area3,Sound Money,6.71
+1970,TH,THA,Thailand,5.92,44.0,2.0,Area4,Freedom to trade internationally,4.87
+1970,TH,THA,Thailand,5.92,44.0,2.0,Area5,Regulation,5.44
 1970,TH,THA,Thailand,5.92,44.0,2.0,N,Economic Freedom Summary Index,5.92
 1970,TH,THA,Thailand,5.92,44.0,2.0,N,Rank,44.0
 1970,TH,THA,Thailand,5.92,44.0,2.0,N,Quartile,2.0
 1970,TL,TLS,Timor-Leste,,,,1E,State ownership of Assets,5.12
+1970,TL,TLS,Timor-Leste,,,,Area2,Legal System And Property Rights,1.72
 1970,TG,TGO,Togo,,,,1C,Government investment,1.62
 1970,TG,TGO,Togo,,,,1E,State ownership of Assets,5.52
-1970,TG,TGO,Togo,,,,Area1,Size of Government,95.0
+1970,TG,TGO,Togo,,,,Area1,Size of Government,4.15
+1970,TG,TGO,Togo,,,,Area2,Legal System And Property Rights,2.15
+1970,TG,TGO,Togo,,,,Area3,Sound Money,6.89
 1970,TT,TTO,Trinidad and Tobago,7.14,18.0,1.0,1E,State ownership of Assets,5.79
-1970,TT,TTO,Trinidad and Tobago,7.14,18.0,1.0,Area1,Size of Government,63.0
+1970,TT,TTO,Trinidad and Tobago,7.14,18.0,1.0,Area1,Size of Government,6.79
+1970,TT,TTO,Trinidad and Tobago,7.14,18.0,1.0,Area2,Legal System And Property Rights,4.45
+1970,TT,TTO,Trinidad and Tobago,7.14,18.0,1.0,Area3,Sound Money,6.84
+1970,TT,TTO,Trinidad and Tobago,7.14,18.0,1.0,Area5,Regulation,6.41
 1970,TT,TTO,Trinidad and Tobago,7.14,18.0,1.0,N,Economic Freedom Summary Index,7.14
 1970,TT,TTO,Trinidad and Tobago,7.14,18.0,1.0,N,Rank,18.0
 1970,TT,TTO,Trinidad and Tobago,7.14,18.0,1.0,N,Quartile,1.0
 1970,TN,TUN,Tunisia,5.32,61.0,3.0,1B,Transfers and subsidies,8.99
 1970,TN,TUN,Tunisia,5.32,61.0,3.0,1C,Government investment,0.0
 1970,TN,TUN,Tunisia,5.32,61.0,3.0,1E,State ownership of Assets,6.13
-1970,TN,TUN,Tunisia,5.32,61.0,3.0,Area1,Size of Government,83.0
+1970,TN,TUN,Tunisia,5.32,61.0,3.0,Area1,Size of Government,4.94
+1970,TN,TUN,Tunisia,5.32,61.0,3.0,Area2,Legal System And Property Rights,7.03
+1970,TN,TUN,Tunisia,5.32,61.0,3.0,Area3,Sound Money,6.88
+1970,TN,TUN,Tunisia,5.32,61.0,3.0,Area4,Freedom to trade internationally,3.38
+1970,TN,TUN,Tunisia,5.32,61.0,3.0,Area5,Regulation,6.46
 1970,TN,TUN,Tunisia,5.32,61.0,3.0,N,Economic Freedom Summary Index,5.32
 1970,TN,TUN,Tunisia,5.32,61.0,3.0,N,Rank,61.0
 1970,TN,TUN,Tunisia,5.32,61.0,3.0,N,Quartile,3.0
 1970,TR,TUR,Türkiye,4.49,83.0,4.0,1B,Transfers and subsidies,9.49
 1970,TR,TUR,Türkiye,4.49,83.0,4.0,1E,State ownership of Assets,5.47
-1970,TR,TUR,Türkiye,4.49,83.0,4.0,Area1,Size of Government,33.0
+1970,TR,TUR,Türkiye,4.49,83.0,4.0,Area1,Size of Government,4.76
+1970,TR,TUR,Türkiye,4.49,83.0,4.0,Area2,Legal System And Property Rights,4.65
+1970,TR,TUR,Türkiye,4.49,83.0,4.0,Area3,Sound Money,10.0
+1970,TR,TUR,Türkiye,4.49,83.0,4.0,Area4,Freedom to trade internationally,0.23
+1970,TR,TUR,Türkiye,4.49,83.0,4.0,Area5,Regulation,5.96
 1970,TR,TUR,Türkiye,4.49,83.0,4.0,N,Economic Freedom Summary Index,4.49
 1970,TR,TUR,Türkiye,4.49,83.0,4.0,N,Rank,83.0
 1970,TR,TUR,Türkiye,4.49,83.0,4.0,N,Quartile,4.0
-1970,UG,UGA,Uganda,3.81,92.0,4.0,1C,Government investment,10.0
-1970,UG,UGA,Uganda,3.81,92.0,4.0,1E,State ownership of Assets,4.26
-1970,UG,UGA,Uganda,3.81,92.0,4.0,Area1,Size of Government,37.0
-1970,UG,UGA,Uganda,3.81,92.0,4.0,N,Economic Freedom Summary Index,3.81
-1970,UG,UGA,Uganda,3.81,92.0,4.0,N,Rank,92.0
-1970,UG,UGA,Uganda,3.81,92.0,4.0,N,Quartile,4.0
-1970,GB,GBR,United Kingdom,6.33,35.0,2.0,1C,Government investment,6.76
-1970,GB,GBR,United Kingdom,6.33,35.0,2.0,1E,State ownership of Assets,5.75
-1970,GB,GBR,United Kingdom,6.33,35.0,2.0,Area1,Size of Government,69.0
-1970,GB,GBR,United Kingdom,6.33,35.0,2.0,N,Economic Freedom Summary Index,6.33
-1970,GB,GBR,United Kingdom,6.33,35.0,2.0,N,Rank,35.0
-1970,GB,GBR,United Kingdom,6.33,35.0,2.0,N,Quartile,2.0
-1970,US,USA,United States,7.89,8.0,1.0,1B,Transfers and subsidies,7.98
-1970,US,USA,United States,7.89,8.0,1.0,1C,Government investment,6.12
-1970,US,USA,United States,7.89,8.0,1.0,1D,Top marginal income tax rate,0.0
-1970,US,USA,United States,7.89,8.0,1.0,1E,State ownership of Assets,7.89
-1970,US,USA,United States,7.89,8.0,1.0,Area1,Size of Government,79.0
-1970,US,USA,United States,7.89,8.0,1.0,N,Economic Freedom Summary Index,7.89
-1970,US,USA,United States,7.89,8.0,1.0,N,Rank,8.0
-1970,US,USA,United States,7.89,8.0,1.0,N,Quartile,1.0
-1970,UY,URY,Uruguay,6.62,31.0,2.0,1B,Transfers and subsidies,7.41
-1970,UY,URY,Uruguay,6.62,31.0,2.0,1C,Government investment,8.6
-1970,UY,URY,Uruguay,6.62,31.0,2.0,1E,State ownership of Assets,6.67
-1970,UY,URY,Uruguay,6.62,31.0,2.0,Area1,Size of Government,31.0
-1970,UY,URY,Uruguay,6.62,31.0,2.0,N,Economic Freedom Summary Index,6.62
-1970,UY,URY,Uruguay,6.62,31.0,2.0,N,Rank,31.0
-1970,UY,URY,Uruguay,6.62,31.0,2.0,N,Quartile,2.0
-1970,VE,VEN,"Venezuela, RB",7.28,15.0,1.0,1B,Transfers and subsidies,9.83
-1970,VE,VEN,"Venezuela, RB",7.28,15.0,1.0,1E,State ownership of Assets,7.62
-1970,VE,VEN,"Venezuela, RB",7.28,15.0,1.0,Area1,Size of Government,12.0
-1970,VE,VEN,"Venezuela, RB",7.28,15.0,1.0,N,Economic Freedom Summary Index,7.28
-1970,VE,VEN,"Venezuela, RB",7.28,15.0,1.0,N,Rank,15.0
-1970,VE,VEN,"Venezuela, RB",7.28,15.0,1.0,N,Quartile,1.0
-1970,VN,VNM,Vietnam,,,,1E,State ownership of Assets,0.91
-1970,YE,YEM,"Yemen, Rep.",,,,1E,State ownership of Assets,4.57
-1970,ZM,ZMB,Zambia,5.28,65.0,3.0,1B,Transfers and subsidies,9.11
-1970,ZM,ZMB,Zambia,5.28,65.0,3.0,1E,State ownership of Assets,2.5
-1970,ZM,ZMB,Zambia,5.28,65.0,3.0,Area1,Size of Government,88.0
-1970,ZM,ZMB,Zambia,5.28,65.0,3.0,N,Economic Freedom Summary Index,5.28
-1970,ZM,ZMB,Zambia,5.28,65.0,3.0,N,Rank,65.0
-1970,ZM,ZMB,Zambia,5.28,65.0,3.0,N,Quartile,3.0
-1970,ZW,ZWE,Zimbabwe,,,,1E,State ownership of Assets,5.2
-1970,ZW,ZWE,Zimbabwe,,,,Area1,Size of Government,53.0
-1975,AL,ALB,Albania,,,,1E,State ownership of Assets,0.19
-1975,DZ,DZA,Algeria,3.61,97.0,4.0,1C,Government investment,7.5
-1975,DZ,DZA,Algeria,3.61,97.0,4.0,1E,State ownership of Assets,1.67
-1975,DZ,DZA,Algeria,3.61,97.0,4.0,Area1,Size of Government,81.0
-1975,DZ,DZA,Algeria,3.61,97.0,4.0,N,Economic Freedom Summary Index,3.61
-1975,DZ,DZA,Algeria,3.61,97.0,4.0,N,Rank,97.0
-1975,DZ,DZA,Algeria,3.61,97.0,4.0,N,Quartile,4.0
-1975,AO,AGO,Angola,,,,1E,State ownership of Assets,2.82
-1975,AR,ARG,Argentina,3.53,99.0,4.0,1B,Transfers and subsidies,7.98
-1975,AR,ARG,Argentina,3.53,99.0,4.0,1D,Top marginal income tax rate,4.0
-1975,AR,ARG,Argentina,3.53,99.0,4.0,1E,State ownership of Assets,6.04
-1975,AR,ARG,Argentina,3.53,99.0,4.0,Area1,Size of Government,48.0
-1975,AR,ARG,Argentina,3.53,99.0,4.0,N,Economic Freedom Summary Index,3.53
-1975,AR,ARG,Argentina,3.53,99.0,4.0,N,Rank,99.0
-1975,AR,ARG,Argentina,3.53,99.0,4.0,N,Quartile,4.0
-1975,AU,AUS,Australia,7.47,8.0,1.0,1B,Transfers and subsidies,7.82
-1975,AU,AUS,Australia,7.47,8.0,1.0,1C,Government investment,9.06
-1975,AU,AUS,Australia,7.47,8.0,1.0,1D,Top marginal income tax rate,2.0
-1975,AU,AUS,Australia,7.47,8.0,1.0,1E,State ownership of Assets,7.42
-1975,AU,AUS,Australia,7.47,8.0,1.0,Area1,Size of Government,45.0
-1975,AU,AUS,Australia,7.47,8.0,1.0,N,Economic Freedom Summary Index,7.47
-1975,AU,AUS,Australia,7.47,8.0,1.0,N,Rank,8.0
-1975,AU,AUS,Australia,7.47,8.0,1.0,N,Quartile,1.0
-1975,AT,AUT,Austria,6.77,17.0,1.0,1B,Transfers and subsidies,4.85
-1975,AT,AUT,Austria,6.77,17.0,1.0,1C,Government investment,7.27
-1975,AT,AUT,Austria,6.77,17.0,1.0,1D,Top marginal income tax rate,4.0
-1975,AT,AUT,Austria,6.77,17.0,1.0,1E,State ownership of Assets,4.79
-1975,AT,AUT,Austria,6.77,17.0,1.0,Area1,Size of Government,79.0
-1975,AT,AUT,Austria,6.77,17.0,1.0,N,Economic Freedom Summary Index,6.77
-1975,AT,AUT,Austria,6.77,17.0,1.0,N,Rank,17.0
-1975,AT,AUT,Austria,6.77,17.0,1.0,N,Quartile,1.0
-1975,BS,BHS,"Bahamas, The",,,,1B,Transfers and subsidies,10.0
-1975,BS,BHS,"Bahamas, The",,,,1D,Top marginal income tax rate,10.0
-1975,BS,BHS,"Bahamas, The",,,,Area1,Size of Government,3.0
-1975,BH,BHR,Bahrain,5.78,34.0,2.0,1D,Top marginal income tax rate,10.0
-1975,BH,BHR,Bahrain,5.78,34.0,2.0,1E,State ownership of Assets,4.02
-1975,BH,BHR,Bahrain,5.78,34.0,2.0,Area1,Size of Government,26.0
-1975,BH,BHR,Bahrain,5.78,34.0,2.0,N,Economic Freedom Summary Index,5.78
-1975,BH,BHR,Bahrain,5.78,34.0,2.0,N,Rank,34.0
-1975,BH,BHR,Bahrain,5.78,34.0,2.0,N,Quartile,2.0
-1975,BD,BGD,Bangladesh,2.95,104.0,4.0,1E,State ownership of Assets,5.47
-1975,BD,BGD,Bangladesh,2.95,104.0,4.0,Area1,Size of Government,12.0
-1975,BD,BGD,Bangladesh,2.95,104.0,4.0,N,Economic Freedom Summary Index,2.95
-1975,BD,BGD,Bangladesh,2.95,104.0,4.0,N,Rank,104.0
-1975,BD,BGD,Bangladesh,2.95,104.0,4.0,N,Quartile,4.0
-1975,BB,BRB,Barbados,6.29,27.0,1.0,1B,Transfers and subsidies,10.0
-1975,BB,BRB,Barbados,6.29,27.0,1.0,1D,Top marginal income tax rate,1.0
-1975,BB,BRB,Barbados,6.29,27.0,1.0,1E,State ownership of Assets,6.9
-1975,BB,BRB,Barbados,6.29,27.0,1.0,Area1,Size of Government,49.0
-1975,BB,BRB,Barbados,6.29,27.0,1.0,N,Economic Freedom Summary Index,6.29
-1975,BB,BRB,Barbados,6.29,27.0,1.0,N,Rank,27.0
-1975,BB,BRB,Barbados,6.29,27.0,1.0,N,Quartile,1.0
-1975,BE,BEL,Belgium,7.2,9.0,1.0,1B,Transfers and subsidies,2.37
-1975,BE,BEL,Belgium,7.2,9.0,1.0,1C,Government investment,9.32
-1975,BE,BEL,Belgium,7.2,9.0,1.0,1D,Top marginal income tax rate,2.0
-1975,BE,BEL,Belgium,7.2,9.0,1.0,1E,State ownership of Assets,7.58
-1975,BE,BEL,Belgium,7.2,9.0,1.0,Area1,Size of Government,73.0
-1975,BE,BEL,Belgium,7.2,9.0,1.0,N,Economic Freedom Summary Index,7.2
-1975,BE,BEL,Belgium,7.2,9.0,1.0,N,Rank,9.0
-1975,BE,BEL,Belgium,7.2,9.0,1.0,N,Quartile,1.0
-1975,BZ,BLZ,Belize,,,,1C,Government investment,3.84
-1975,BZ,BLZ,Belize,,,,Area1,Size of Government,72.0
-1975,BJ,BEN,Benin,4.71,74.0,3.0,1E,State ownership of Assets,4.95
-1975,BJ,BEN,Benin,4.71,74.0,3.0,Area1,Size of Government,28.0
-1975,BJ,BEN,Benin,4.71,74.0,3.0,N,Economic Freedom Summary Index,4.71
-1975,BJ,BEN,Benin,4.71,74.0,3.0,N,Rank,74.0
-1975,BJ,BEN,Benin,4.71,74.0,3.0,N,Quartile,3.0
-1975,BT,BTN,Bhutan,,,,1E,State ownership of Assets,4.24
-1975,BO,BOL,Bolivia,4.8,68.0,3.0,1B,Transfers and subsidies,9.78
-1975,BO,BOL,Bolivia,4.8,68.0,3.0,1E,State ownership of Assets,5.2
-1975,BO,BOL,Bolivia,4.8,68.0,3.0,Area1,Size of Government,16.0
-1975,BO,BOL,Bolivia,4.8,68.0,3.0,N,Economic Freedom Summary Index,4.8
-1975,BO,BOL,Bolivia,4.8,68.0,3.0,N,Rank,68.0
-1975,BO,BOL,Bolivia,4.8,68.0,3.0,N,Quartile,3.0
-1975,BW,BWA,Botswana,5.29,51.0,2.0,1B,Transfers and subsidies,8.64
-1975,BW,BWA,Botswana,5.29,51.0,2.0,1C,Government investment,10.0
-1975,BW,BWA,Botswana,5.29,51.0,2.0,1D,Top marginal income tax rate,0.0
-1975,BW,BWA,Botswana,5.29,51.0,2.0,1E,State ownership of Assets,6.45
-1975,BW,BWA,Botswana,5.29,51.0,2.0,Area1,Size of Government,52.0
-1975,BW,BWA,Botswana,5.29,51.0,2.0,N,Economic Freedom Summary Index,5.29
-1975,BW,BWA,Botswana,5.29,51.0,2.0,N,Rank,51.0
-1975,BW,BWA,Botswana,5.29,51.0,2.0,N,Quartile,2.0
-1975,BR,BRA,Brazil,3.96,89.0,4.0,1B,Transfers and subsidies,4.71
-1975,BR,BRA,Brazil,3.96,89.0,4.0,1D,Top marginal income tax rate,5.0
-1975,BR,BRA,Brazil,3.96,89.0,4.0,1E,State ownership of Assets,5.81
-1975,BR,BRA,Brazil,3.96,89.0,4.0,Area1,Size of Government,55.0
-1975,BR,BRA,Brazil,3.96,89.0,4.0,N,Economic Freedom Summary Index,3.96
-1975,BR,BRA,Brazil,3.96,89.0,4.0,N,Rank,89.0
-1975,BR,BRA,Brazil,3.96,89.0,4.0,N,Quartile,4.0
-1975,BG,BGR,Bulgaria,,,,1E,State ownership of Assets,0.25
-1975,BF,BFA,Burkina Faso,,,,1C,Government investment,0.0
-1975,BF,BFA,Burkina Faso,,,,1E,State ownership of Assets,4.24
-1975,BF,BFA,Burkina Faso,,,,Area1,Size of Government,113.0
-1975,BI,BDI,Burundi,3.84,94.0,4.0,1E,State ownership of Assets,6.22
-1975,BI,BDI,Burundi,3.84,94.0,4.0,Area1,Size of Government,19.0
-1975,BI,BDI,Burundi,3.84,94.0,4.0,N,Economic Freedom Summary Index,3.84
-1975,BI,BDI,Burundi,3.84,94.0,4.0,N,Rank,94.0
-1975,BI,BDI,Burundi,3.84,94.0,4.0,N,Quartile,4.0
-1975,CV,CPV,Cabo Verde,,,,1E,State ownership of Assets,4.48
-1975,KH,KHM,Cambodia,,,,1E,State ownership of Assets,0.93
-1975,CM,CMR,Cameroon,4.73,73.0,3.0,1B,Transfers and subsidies,9.75
-1975,CM,CMR,Cameroon,4.73,73.0,3.0,1C,Government investment,8.62
-1975,CM,CMR,Cameroon,4.73,73.0,3.0,1E,State ownership of Assets,5.85
-1975,CM,CMR,Cameroon,4.73,73.0,3.0,Area1,Size of Government,7.0
-1975,CM,CMR,Cameroon,4.73,73.0,3.0,N,Economic Freedom Summary Index,4.73
-1975,CM,CMR,Cameroon,4.73,73.0,3.0,N,Rank,73.0
-1975,CM,CMR,Cameroon,4.73,73.0,3.0,N,Quartile,3.0
-1975,CA,CAN,Canada,7.88,4.0,1.0,1B,Transfers and subsidies,7.66
-1975,CA,CAN,Canada,7.88,4.0,1.0,1C,Government investment,9.07
-1975,CA,CAN,Canada,7.88,4.0,1.0,1D,Top marginal income tax rate,2.0
-1975,CA,CAN,Canada,7.88,4.0,1.0,1E,State ownership of Assets,7.36
-1975,CA,CAN,Canada,7.88,4.0,1.0,Area1,Size of Government,53.0
-1975,CA,CAN,Canada,7.88,4.0,1.0,N,Economic Freedom Summary Index,7.88
-1975,CA,CAN,Canada,7.88,4.0,1.0,N,Rank,4.0
-1975,CA,CAN,Canada,7.88,4.0,1.0,N,Quartile,1.0
-1975,CF,CAF,Central African Republic,3.88,93.0,4.0,1E,State ownership of Assets,6.5
-1975,CF,CAF,Central African Republic,3.88,93.0,4.0,Area1,Size of Government,32.0
-1975,CF,CAF,Central African Republic,3.88,93.0,4.0,N,Economic Freedom Summary Index,3.88
-1975,CF,CAF,Central African Republic,3.88,93.0,4.0,N,Rank,93.0
-1975,CF,CAF,Central African Republic,3.88,93.0,4.0,N,Quartile,4.0
-1975,TD,TCD,Chad,4.93,64.0,3.0,1E,State ownership of Assets,7.69
-1975,TD,TCD,Chad,4.93,64.0,3.0,Area1,Size of Government,39.0
-1975,TD,TCD,Chad,4.93,64.0,3.0,N,Economic Freedom Summary Index,4.93
-1975,TD,TCD,Chad,4.93,64.0,3.0,N,Rank,64.0
-1975,TD,TCD,Chad,4.93,64.0,3.0,N,Quartile,3.0
-1975,CL,CHL,Chile,3.68,95.0,4.0,1B,Transfers and subsidies,7.28
-1975,CL,CHL,Chile,3.68,95.0,4.0,1D,Top marginal income tax rate,2.0
-1975,CL,CHL,Chile,3.68,95.0,4.0,1E,State ownership of Assets,7.61
-1975,CL,CHL,Chile,3.68,95.0,4.0,Area1,Size of Government,54.0
-1975,CL,CHL,Chile,3.68,95.0,4.0,N,Economic Freedom Summary Index,3.68
-1975,CL,CHL,Chile,3.68,95.0,4.0,N,Rank,95.0
-1975,CL,CHL,Chile,3.68,95.0,4.0,N,Quartile,4.0
-1975,CN,CHN,China,,,,1E,State ownership of Assets,0.16
-1975,CO,COL,Colombia,5.11,58.0,3.0,1B,Transfers and subsidies,9.32
-1975,CO,COL,Colombia,5.11,58.0,3.0,1C,Government investment,4.62
-1975,CO,COL,Colombia,5.11,58.0,3.0,1D,Top marginal income tax rate,6.0
-1975,CO,COL,Colombia,5.11,58.0,3.0,1E,State ownership of Assets,7.25
-1975,CO,COL,Colombia,5.11,58.0,3.0,Area1,Size of Government,21.0
-1975,CO,COL,Colombia,5.11,58.0,3.0,N,Economic Freedom Summary Index,5.11
-1975,CO,COL,Colombia,5.11,58.0,3.0,N,Rank,58.0
-1975,CO,COL,Colombia,5.11,58.0,3.0,N,Quartile,3.0
-1975,KM,COM,Comoros,,,,1C,Government investment,0.0
-1975,KM,COM,Comoros,,,,1E,State ownership of Assets,5.13
-1975,KM,COM,Comoros,,,,Area1,Size of Government,111.0
-1975,CD,COD,"Congo, Dem. Rep.",3.23,102.0,4.0,1B,Transfers and subsidies,9.86
-1975,CD,COD,"Congo, Dem. Rep.",3.23,102.0,4.0,1D,Top marginal income tax rate,2.0
-1975,CD,COD,"Congo, Dem. Rep.",3.23,102.0,4.0,1E,State ownership of Assets,4.59
-1975,CD,COD,"Congo, Dem. Rep.",3.23,102.0,4.0,Area1,Size of Government,50.0
-1975,CD,COD,"Congo, Dem. Rep.",3.23,102.0,4.0,N,Economic Freedom Summary Index,3.23
-1975,CD,COD,"Congo, Dem. Rep.",3.23,102.0,4.0,N,Rank,102.0
-1975,CD,COD,"Congo, Dem. Rep.",3.23,102.0,4.0,N,Quartile,4.0
-1975,CG,COG,"Congo, Rep.",3.94,90.0,4.0,1E,State ownership of Assets,2.49
-1975,CG,COG,"Congo, Rep.",3.94,90.0,4.0,Area1,Size of Government,98.0
-1975,CG,COG,"Congo, Rep.",3.94,90.0,4.0,N,Economic Freedom Summary Index,3.94
-1975,CG,COG,"Congo, Rep.",3.94,90.0,4.0,N,Rank,90.0
-1975,CG,COG,"Congo, Rep.",3.94,90.0,4.0,N,Quartile,4.0
-1975,CR,CRI,Costa Rica,7.01,15.0,1.0,1B,Transfers and subsidies,9.02
-1975,CR,CRI,Costa Rica,7.01,15.0,1.0,1D,Top marginal income tax rate,5.0
-1975,CR,CRI,Costa Rica,7.01,15.0,1.0,1E,State ownership of Assets,5.97
-1975,CR,CRI,Costa Rica,7.01,15.0,1.0,Area1,Size of Government,35.0
-1975,CR,CRI,Costa Rica,7.01,15.0,1.0,N,Economic Freedom Summary Index,7.01
-1975,CR,CRI,Costa Rica,7.01,15.0,1.0,N,Rank,15.0
-1975,CR,CRI,Costa Rica,7.01,15.0,1.0,N,Quartile,1.0
-1975,CY,CYP,Cyprus,5.77,35.0,2.0,1B,Transfers and subsidies,7.33
-1975,CY,CYP,Cyprus,5.77,35.0,2.0,1D,Top marginal income tax rate,3.0
-1975,CY,CYP,Cyprus,5.77,35.0,2.0,1E,State ownership of Assets,6.05
-1975,CY,CYP,Cyprus,5.77,35.0,2.0,Area1,Size of Government,58.0
-1975,CY,CYP,Cyprus,5.77,35.0,2.0,N,Economic Freedom Summary Index,5.77
-1975,CY,CYP,Cyprus,5.77,35.0,2.0,N,Rank,35.0
-1975,CY,CYP,Cyprus,5.77,35.0,2.0,N,Quartile,2.0
-1975,CZ,CZE,Czechia,,,,1E,State ownership of Assets,0.44
-1975,CI,CIV,Côte d'Ivoire,4.75,71.0,3.0,1C,Government investment,2.34
-1975,CI,CIV,Côte d'Ivoire,4.75,71.0,3.0,1E,State ownership of Assets,4.23
-1975,CI,CIV,Côte d'Ivoire,4.75,71.0,3.0,Area1,Size of Government,101.0
-1975,CI,CIV,Côte d'Ivoire,4.75,71.0,3.0,N,Economic Freedom Summary Index,4.75
-1975,CI,CIV,Côte d'Ivoire,4.75,71.0,3.0,N,Rank,71.0
-1975,CI,CIV,Côte d'Ivoire,4.75,71.0,3.0,N,Quartile,3.0
-1975,DK,DNK,Denmark,6.85,16.0,1.0,1B,Transfers and subsidies,5.29
-1975,DK,DNK,Denmark,6.85,16.0,1.0,1C,Government investment,1.36
-1975,DK,DNK,Denmark,6.85,16.0,1.0,1D,Top marginal income tax rate,1.0
-1975,DK,DNK,Denmark,6.85,16.0,1.0,1E,State ownership of Assets,6.88
-1975,DK,DNK,Denmark,6.85,16.0,1.0,Area1,Size of Government,106.0
-1975,DK,DNK,Denmark,6.85,16.0,1.0,N,Economic Freedom Summary Index,6.85
-1975,DK,DNK,Denmark,6.85,16.0,1.0,N,Rank,16.0
-1975,DK,DNK,Denmark,6.85,16.0,1.0,N,Quartile,1.0
-1975,DJ,DJI,Djibouti,,,,1E,State ownership of Assets,1.31
-1975,DO,DOM,Dominican Republic,4.37,83.0,4.0,1B,Transfers and subsidies,9.46
-1975,DO,DOM,Dominican Republic,4.37,83.0,4.0,1C,Government investment,2.51
-1975,DO,DOM,Dominican Republic,4.37,83.0,4.0,1D,Top marginal income tax rate,0.0
-1975,DO,DOM,Dominican Republic,4.37,83.0,4.0,1E,State ownership of Assets,7.14
-1975,DO,DOM,Dominican Republic,4.37,83.0,4.0,Area1,Size of Government,60.0
-1975,DO,DOM,Dominican Republic,4.37,83.0,4.0,N,Economic Freedom Summary Index,4.37
-1975,DO,DOM,Dominican Republic,4.37,83.0,4.0,N,Rank,83.0
-1975,DO,DOM,Dominican Republic,4.37,83.0,4.0,N,Quartile,4.0
-1975,EC,ECU,Ecuador,5.28,52.0,2.0,1C,Government investment,7.42
-1975,EC,ECU,Ecuador,5.28,52.0,2.0,1D,Top marginal income tax rate,5.0
-1975,EC,ECU,Ecuador,5.28,52.0,2.0,1E,State ownership of Assets,6.42
-1975,EC,ECU,Ecuador,5.28,52.0,2.0,Area1,Size of Government,43.0
-1975,EC,ECU,Ecuador,5.28,52.0,2.0,N,Economic Freedom Summary Index,5.28
-1975,EC,ECU,Ecuador,5.28,52.0,2.0,N,Rank,52.0
-1975,EC,ECU,Ecuador,5.28,52.0,2.0,N,Quartile,2.0
-1975,EG,EGY,"Egypt, Arab Rep.",4.1,88.0,4.0,1B,Transfers and subsidies,3.32
-1975,EG,EGY,"Egypt, Arab Rep.",4.1,88.0,4.0,1E,State ownership of Assets,5.42
-1975,EG,EGY,"Egypt, Arab Rep.",4.1,88.0,4.0,Area1,Size of Government,100.0
-1975,EG,EGY,"Egypt, Arab Rep.",4.1,88.0,4.0,N,Economic Freedom Summary Index,4.1
-1975,EG,EGY,"Egypt, Arab Rep.",4.1,88.0,4.0,N,Rank,88.0
-1975,EG,EGY,"Egypt, Arab Rep.",4.1,88.0,4.0,N,Quartile,4.0
-1975,SV,SLV,El Salvador,5.3,50.0,2.0,1B,Transfers and subsidies,9.46
-1975,SV,SLV,El Salvador,5.3,50.0,2.0,1D,Top marginal income tax rate,4.0
-1975,SV,SLV,El Salvador,5.3,50.0,2.0,1E,State ownership of Assets,7.15
-1975,SV,SLV,El Salvador,5.3,50.0,2.0,Area1,Size of Government,23.0
-1975,SV,SLV,El Salvador,5.3,50.0,2.0,N,Economic Freedom Summary Index,5.3
-1975,SV,SLV,El Salvador,5.3,50.0,2.0,N,Rank,50.0
-1975,SV,SLV,El Salvador,5.3,50.0,2.0,N,Quartile,2.0
-1975,SZ,SWZ,Eswatini,,,,1C,Government investment,9.07
-1975,SZ,SWZ,Eswatini,,,,1E,State ownership of Assets,4.24
-1975,SZ,SWZ,Eswatini,,,,Area1,Size of Government,34.0
-1975,ET,ETH,Ethiopia,,,,1E,State ownership of Assets,2.65
-1975,FJ,FJI,Fiji,5.42,45.0,2.0,1B,Transfers and subsidies,9.62
-1975,FJ,FJI,Fiji,5.42,45.0,2.0,1C,Government investment,1.91
-1975,FJ,FJI,Fiji,5.42,45.0,2.0,1D,Top marginal income tax rate,3.0
-1975,FJ,FJI,Fiji,5.42,45.0,2.0,1E,State ownership of Assets,6.69
-1975,FJ,FJI,Fiji,5.42,45.0,2.0,Area1,Size of Government,59.0
-1975,FJ,FJI,Fiji,5.42,45.0,2.0,N,Economic Freedom Summary Index,5.42
-1975,FJ,FJI,Fiji,5.42,45.0,2.0,N,Rank,45.0
-1975,FJ,FJI,Fiji,5.42,45.0,2.0,N,Quartile,2.0
-1975,FI,FIN,Finland,7.13,12.0,1.0,1B,Transfers and subsidies,6.29
-1975,FI,FIN,Finland,7.13,12.0,1.0,1C,Government investment,9.61
-1975,FI,FIN,Finland,7.13,12.0,1.0,1D,Top marginal income tax rate,2.0
-1975,FI,FIN,Finland,7.13,12.0,1.0,1E,State ownership of Assets,6.91
-1975,FI,FIN,Finland,7.13,12.0,1.0,Area1,Size of Government,51.0
-1975,FI,FIN,Finland,7.13,12.0,1.0,N,Economic Freedom Summary Index,7.13
-1975,FI,FIN,Finland,7.13,12.0,1.0,N,Rank,12.0
-1975,FI,FIN,Finland,7.13,12.0,1.0,N,Quartile,1.0
-1975,FR,FRA,France,6.55,20.0,1.0,1B,Transfers and subsidies,3.6
-1975,FR,FRA,France,6.55,20.0,1.0,1C,Government investment,8.14
-1975,FR,FRA,France,6.55,20.0,1.0,1D,Top marginal income tax rate,5.0
-1975,FR,FRA,France,6.55,20.0,1.0,1E,State ownership of Assets,6.37
-1975,FR,FRA,France,6.55,20.0,1.0,Area1,Size of Government,61.0
-1975,FR,FRA,France,6.55,20.0,1.0,N,Economic Freedom Summary Index,6.55
-1975,FR,FRA,France,6.55,20.0,1.0,N,Rank,20.0
-1975,FR,FRA,France,6.55,20.0,1.0,N,Quartile,1.0
-1975,GA,GAB,Gabon,3.59,98.0,4.0,1B,Transfers and subsidies,9.29
-1975,GA,GAB,Gabon,3.59,98.0,4.0,1C,Government investment,0.83
-1975,GA,GAB,Gabon,3.59,98.0,4.0,1E,State ownership of Assets,5.26
-1975,GA,GAB,Gabon,3.59,98.0,4.0,Area1,Size of Government,96.0
-1975,GA,GAB,Gabon,3.59,98.0,4.0,N,Economic Freedom Summary Index,3.59
-1975,GA,GAB,Gabon,3.59,98.0,4.0,N,Rank,98.0
-1975,GA,GAB,Gabon,3.59,98.0,4.0,N,Quartile,4.0
-1975,GM,GMB,"Gambia, The",,,,1E,State ownership of Assets,5.46
-1975,DE,DEU,Germany,7.78,5.0,1.0,1B,Transfers and subsidies,5.4
-1975,DE,DEU,Germany,7.78,5.0,1.0,1C,Government investment,7.16
-1975,DE,DEU,Germany,7.78,5.0,1.0,1D,Top marginal income tax rate,2.0
-1975,DE,DEU,Germany,7.78,5.0,1.0,1E,State ownership of Assets,7.77
-1975,DE,DEU,Germany,7.78,5.0,1.0,Area1,Size of Government,75.0
-1975,DE,DEU,Germany,7.78,5.0,1.0,N,Economic Freedom Summary Index,7.78
-1975,DE,DEU,Germany,7.78,5.0,1.0,N,Rank,5.0
-1975,DE,DEU,Germany,7.78,5.0,1.0,N,Quartile,1.0
-1975,GH,GHA,Ghana,3.35,101.0,4.0,1B,Transfers and subsidies,9.29
-1975,GH,GHA,Ghana,3.35,101.0,4.0,1D,Top marginal income tax rate,0.0
-1975,GH,GHA,Ghana,3.35,101.0,4.0,1E,State ownership of Assets,4.76
-1975,GH,GHA,Ghana,3.35,101.0,4.0,Area1,Size of Government,74.0
-1975,GH,GHA,Ghana,3.35,101.0,4.0,N,Economic Freedom Summary Index,3.35
-1975,GH,GHA,Ghana,3.35,101.0,4.0,N,Rank,101.0
-1975,GH,GHA,Ghana,3.35,101.0,4.0,N,Quartile,4.0
-1975,GR,GRC,Greece,5.63,40.0,2.0,1B,Transfers and subsidies,9.29
-1975,GR,GRC,Greece,5.63,40.0,2.0,1D,Top marginal income tax rate,4.0
-1975,GR,GRC,Greece,5.63,40.0,2.0,1E,State ownership of Assets,6.1
-1975,GR,GRC,Greece,5.63,40.0,2.0,Area1,Size of Government,44.0
-1975,GR,GRC,Greece,5.63,40.0,2.0,N,Economic Freedom Summary Index,5.63
-1975,GR,GRC,Greece,5.63,40.0,2.0,N,Rank,40.0
-1975,GR,GRC,Greece,5.63,40.0,2.0,N,Quartile,2.0
-1975,GT,GTM,Guatemala,6.06,31.0,2.0,1B,Transfers and subsidies,9.92
-1975,GT,GTM,Guatemala,6.06,31.0,2.0,1C,Government investment,8.36
-1975,GT,GTM,Guatemala,6.06,31.0,2.0,1D,Top marginal income tax rate,9.0
-1975,GT,GTM,Guatemala,6.06,31.0,2.0,1E,State ownership of Assets,9.31
-1975,GT,GTM,Guatemala,6.06,31.0,2.0,Area1,Size of Government,2.0
-1975,GT,GTM,Guatemala,6.06,31.0,2.0,N,Economic Freedom Summary Index,6.06
-1975,GT,GTM,Guatemala,6.06,31.0,2.0,N,Rank,31.0
-1975,GT,GTM,Guatemala,6.06,31.0,2.0,N,Quartile,2.0
-1975,GN,GIN,Guinea,,,,1E,State ownership of Assets,2.35
-1975,GW,GNB,Guinea-Bissau,,,,1E,State ownership of Assets,0.9
-1975,GW,GNB,Guinea-Bissau,,,,Area1,Size of Government,109.0
-1975,GY,GUY,Guyana,4.92,66.0,3.0,1E,State ownership of Assets,4.44
-1975,GY,GUY,Guyana,4.92,66.0,3.0,Area1,Size of Government,102.0
-1975,GY,GUY,Guyana,4.92,66.0,3.0,N,Economic Freedom Summary Index,4.92
-1975,GY,GUY,Guyana,4.92,66.0,3.0,N,Rank,66.0
-1975,GY,GUY,Guyana,4.92,66.0,3.0,N,Quartile,3.0
-1975,HT,HTI,Haiti,5.27,53.0,2.0,1E,State ownership of Assets,6.23
-1975,HT,HTI,Haiti,5.27,53.0,2.0,Area1,Size of Government,14.0
-1975,HT,HTI,Haiti,5.27,53.0,2.0,N,Economic Freedom Summary Index,5.27
-1975,HT,HTI,Haiti,5.27,53.0,2.0,N,Rank,53.0
-1975,HT,HTI,Haiti,5.27,53.0,2.0,N,Quartile,2.0
-1975,HN,HND,Honduras,6.36,25.0,1.0,1B,Transfers and subsidies,10.0
-1975,HN,HND,Honduras,6.36,25.0,1.0,1C,Government investment,4.56
-1975,HN,HND,Honduras,6.36,25.0,1.0,1D,Top marginal income tax rate,9.0
-1975,HN,HND,Honduras,6.36,25.0,1.0,1E,State ownership of Assets,5.79
-1975,HN,HND,Honduras,6.36,25.0,1.0,Area1,Size of Government,17.0
-1975,HN,HND,Honduras,6.36,25.0,1.0,N,Economic Freedom Summary Index,6.36
-1975,HN,HND,Honduras,6.36,25.0,1.0,N,Rank,25.0
-1975,HN,HND,Honduras,6.36,25.0,1.0,N,Quartile,1.0
-1975,HK,HKG,"Hong Kong SAR, China",9.11,1.0,1.0,1B,Transfers and subsidies,9.84
-1975,HK,HKG,"Hong Kong SAR, China",9.11,1.0,1.0,1C,Government investment,9.78
-1975,HK,HKG,"Hong Kong SAR, China",9.11,1.0,1.0,1D,Top marginal income tax rate,10.0
-1975,HK,HKG,"Hong Kong SAR, China",9.11,1.0,1.0,1E,State ownership of Assets,8.79
-1975,HK,HKG,"Hong Kong SAR, China",9.11,1.0,1.0,Area1,Size of Government,1.0
-1975,HK,HKG,"Hong Kong SAR, China",9.11,1.0,1.0,N,Economic Freedom Summary Index,9.11
-1975,HK,HKG,"Hong Kong SAR, China",9.11,1.0,1.0,N,Rank,1.0
-1975,HK,HKG,"Hong Kong SAR, China",9.11,1.0,1.0,N,Quartile,1.0
-1975,HU,HUN,Hungary,4.93,64.0,3.0,1E,State ownership of Assets,1.18
-1975,HU,HUN,Hungary,4.93,64.0,3.0,Area1,Size of Government,97.0
-1975,HU,HUN,Hungary,4.93,64.0,3.0,N,Economic Freedom Summary Index,4.93
-1975,HU,HUN,Hungary,4.93,64.0,3.0,N,Rank,64.0
-1975,HU,HUN,Hungary,4.93,64.0,3.0,N,Quartile,3.0
-1975,IS,ISL,Iceland,5.49,43.0,2.0,1B,Transfers and subsidies,7.44
-1975,IS,ISL,Iceland,5.49,43.0,2.0,1C,Government investment,9.08
-1975,IS,ISL,Iceland,5.49,43.0,2.0,1E,State ownership of Assets,6.77
-1975,IS,ISL,Iceland,5.49,43.0,2.0,Area1,Size of Government,20.0
-1975,IS,ISL,Iceland,5.49,43.0,2.0,N,Economic Freedom Summary Index,5.49
-1975,IS,ISL,Iceland,5.49,43.0,2.0,N,Rank,43.0
-1975,IS,ISL,Iceland,5.49,43.0,2.0,N,Quartile,2.0
-1975,IN,IND,India,4.41,81.0,3.0,1B,Transfers and subsidies,9.1
-1975,IN,IND,India,4.41,81.0,3.0,1C,Government investment,2.19
-1975,IN,IND,India,4.41,81.0,3.0,1D,Top marginal income tax rate,0.0
-1975,IN,IND,India,4.41,81.0,3.0,1E,State ownership of Assets,6.17
-1975,IN,IND,India,4.41,81.0,3.0,Area1,Size of Government,78.0
-1975,IN,IND,India,4.41,81.0,3.0,N,Economic Freedom Summary Index,4.41
-1975,IN,IND,India,4.41,81.0,3.0,N,Rank,81.0
-1975,IN,IND,India,4.41,81.0,3.0,N,Quartile,3.0
-1975,ID,IDN,Indonesia,4.78,70.0,3.0,1B,Transfers and subsidies,9.73
-1975,ID,IDN,Indonesia,4.78,70.0,3.0,1D,Top marginal income tax rate,4.0
-1975,ID,IDN,Indonesia,4.78,70.0,3.0,1E,State ownership of Assets,5.4
-1975,ID,IDN,Indonesia,4.78,70.0,3.0,Area1,Size of Government,31.0
-1975,ID,IDN,Indonesia,4.78,70.0,3.0,N,Economic Freedom Summary Index,4.78
-1975,ID,IDN,Indonesia,4.78,70.0,3.0,N,Rank,70.0
-1975,ID,IDN,Indonesia,4.78,70.0,3.0,N,Quartile,3.0
-1975,IR,IRN,"Iran, Islamic Rep.",6.12,30.0,2.0,1B,Transfers and subsidies,7.71
-1975,IR,IRN,"Iran, Islamic Rep.",6.12,30.0,2.0,1C,Government investment,2.86
-1975,IR,IRN,"Iran, Islamic Rep.",6.12,30.0,2.0,1D,Top marginal income tax rate,8.0
-1975,IR,IRN,"Iran, Islamic Rep.",6.12,30.0,2.0,1E,State ownership of Assets,4.64
-1975,IR,IRN,"Iran, Islamic Rep.",6.12,30.0,2.0,Area1,Size of Government,84.0
-1975,IR,IRN,"Iran, Islamic Rep.",6.12,30.0,2.0,N,Economic Freedom Summary Index,6.12
-1975,IR,IRN,"Iran, Islamic Rep.",6.12,30.0,2.0,N,Rank,30.0
-1975,IR,IRN,"Iran, Islamic Rep.",6.12,30.0,2.0,N,Quartile,2.0
-1975,IQ,IRQ,Iraq,,,,1E,State ownership of Assets,3.56
-1975,IE,IRL,Ireland,6.37,24.0,1.0,1B,Transfers and subsidies,5.15
