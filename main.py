@@ -25,10 +25,10 @@ def transform_csv(input_file, output_file):
         ('1E', 'State ownership of Assets', 'State ownership of Assets'),
         ('1B', 'Transfers and subsidies', 'Transfers and subsidies'),
         ('1C', 'Government investment', 'Government investment'),
-        ('5Cvi', 'Tax compliance', 'Tax compliance'),
+        # ('5Cvi', 'Tax compliance', 'Tax compliance'),
         ('1D', 'Top marginal income tax rate', 'S'),
         ('Area1', 'Size of Government', 'V'),
-        ('5Cvi', 'Business regulations', 75),  # Using column index (76-1 because 0-based)
+        ('5Civ', 'Tax compliance', 74),  # Using column index (76-1 because 0-based)
         ('N', 'Economic Freedom Summary Index', ' Economic Freedom Summary Index'),
         ('N', 'Rank', 'Rank'),
         ('N', 'Quartile', 'Quartile')
