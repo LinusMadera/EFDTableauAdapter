@@ -20,6 +20,7 @@ def transform_csv(input_file, output_file):
     ]
     
     # Create the different metric dataframes
+    # Format: (Research ID, Research Name, column_index or name)
     metrics = [
         ('1E', 'State ownership of Assets', 'State ownership of Assets'),
         ('1B', 'Transfers and subsidies', 'Transfers and subsidies'),
@@ -27,6 +28,7 @@ def transform_csv(input_file, output_file):
         ('5Cvi', 'Tax compliance', 'Tax compliance'),
         ('1D', 'Top marginal income tax rate', 'S'),
         ('Area1', 'Size of Government', 'V'),
+        ('5Cvi', 'Business regulations', 75),  # Using column index (76-1 because 0-based)
         ('N', 'Economic Freedom Summary Index', ' Economic Freedom Summary Index'),
         ('N', 'Rank', 'Rank'),
         ('N', 'Quartile', 'Quartile')
@@ -43,11 +45,14 @@ def transform_csv(input_file, output_file):
         # Add research columns
         temp_df['Research ID'] = research_id
         temp_df['Research'] = research_name
-        # Handle both named columns and letter-based columns
-        if len(value_column) == 1:  # If it's a single letter column reference
-            temp_df['Index - Continuous -F'] = df.iloc[:, ord(value_column) - ord('A')]
-        else:
-            temp_df['Index - Continuous -F'] = df[value_column]
+        
+        # Handle different types of column references
+        if isinstance(value_column, int):  # If it's a column index
+            temp_df['Index - Continuous'] = df.iloc[:, value_column]
+        elif len(value_column) == 1:  # If it's a single letter column reference
+            temp_df['Index - Continuous'] = df.iloc[:, ord(value_column) - ord('A')]
+        else:  # If it's a column name
+            temp_df['Index - Continuous'] = df[value_column]
         
         # Add to list of dataframes
         dataframes.append(temp_df)
@@ -56,7 +61,7 @@ def transform_csv(input_file, output_file):
     new_df = pd.concat(dataframes, ignore_index=True)
     
     # Clean up the combined dataframe
-    new_df = new_df.dropna(subset=['Year', 'Index - Continuous -F'])
+    new_df = new_df.dropna(subset=['Year', 'Index - Continuous'])
     new_df['Year'] = new_df['Year'].astype(int)
     
     # Reorder columns to match desired output
@@ -70,7 +75,7 @@ def transform_csv(input_file, output_file):
         'Quartile',
         'Research ID',
         'Research',
-        'Index - Continuous -F'
+        'Index - Continuous'
     ]
     new_df = new_df[column_order]
     
