@@ -7,4 +7,4 @@ df = pd.read_excel('efotw-2024-master-index-data-for-researchers-iso.xlsx', shee
 df = df.round(2)
 
 # Export to CSV
-df.to_csv('second_sheet.csv', index=False)
+df.to_csv('areas.csv', index=False)
