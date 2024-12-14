@@ -68,11 +68,7 @@ def transform_csv(input_file, output_file):
     # Read the main data
     df = df_combined
     
-    # First, create the country-subregion mapping from original data
-    country_to_region = df[['Countries', 'World Bank Region']].drop_duplicates().set_index('Countries')['World Bank Region'].to_dict()
-    
-    # IMPORTANT: Map subregions to countries BEFORE any other operations
-    df['Subregião / Subregion'] = df['Countries'].map(country_to_region)
+    df['Subregião / Subregion'] = df['World Bank Region']
     
     # Now add other base columns
     df['Language1'] = 'English'
@@ -190,8 +186,6 @@ def transform_csv(input_file, output_file):
         'Regiao / Region': 'Região / Region',
     })
     
-    # Use World Bank Region for Subregion
-    new_df['Subregião / Subregion'] = df['World Bank Region']  # Copy from existing column
     
     # Add all the other columns
     new_df['Area'] = 'N/A'
