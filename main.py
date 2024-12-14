@@ -65,23 +65,26 @@ def get_country_metadata(iso3_code: str) -> Tuple[str, str, str]:
         return ('N/A', 'N/A', 'N/A')
 
 def transform_csv(input_file, output_file):
-    # Read the main data, skipping header rows
+    # Read the main data
     df = df_combined
     
-    # Add the region/subregion columns first
+    # First, create the country-subregion mapping from original data
+    country_to_region = df[['Countries', 'World Bank Region']].drop_duplicates().set_index('Countries')['World Bank Region'].to_dict()
+    
+    # IMPORTANT: Map subregions to countries BEFORE any other operations
+    df['Subregião / Subregion'] = df['Countries'].map(country_to_region)
+    
+    # Now add other base columns
     df['Language1'] = 'English'
     df['Regiao / Region'] = df['ISO Code 3'].apply(lambda x: get_country_metadata(x)[0])
-    df['Subregiao / Subregion'] = df['ISO Code 3'].apply(lambda x: get_country_metadata(x)[1])
     df['State'] = df['ISO Code 3'].apply(lambda x: get_country_metadata(x)[2])
     
-    # Base columns to copy for all dataframes - NOW INCLUDING THE NEW COLUMNS
+    # Base columns that will be used for each research metric
     base_columns = [
         'Year',
         'Language1',
         'Regiao / Region',
-        'Subregiao / Subregion',
-        'ISO Code 2', 
-        'ISO Code 3', 
+        'Subregião / Subregion',  # Now this will already have the correct values
         'Countries',
         'State',
         ' Economic Freedom Summary Index',
@@ -185,10 +188,12 @@ def transform_csv(input_file, output_file):
         'Index - Continuous': 'indexValue - Continuous',
         'Research ID': 'Research Code',
         'Regiao / Region': 'Região / Region',
-        'Subregiao / Subregion': 'Subregião / Subregion'
     })
     
-    # Add all the new columns
+    # Use World Bank Region for Subregion
+    new_df['Subregião / Subregion'] = df['World Bank Region']  # Copy from existing column
+    
+    # Add all the other columns
     new_df['Area'] = 'N/A'
     new_df['Quartiles - Eco Free'] = 'N/A'
     new_df['Rank - World'] = 'N/A'
