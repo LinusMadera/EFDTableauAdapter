@@ -67,9 +67,9 @@ def get_country_metadata(iso3_code: str) -> Tuple[str, str, str]:
 def transform_csv(input_file, output_file):
     # Read the main data
     df = df_combined
-    
+    df['Quartiles'] = 'N/A'
     df['Subregião / Subregion'] = df['World Bank Region']
-    
+    df['Quartiles'] = df['World Bank Current Income Classification, 1990-Present']
     # Now add other base columns
     df['Language1'] = 'English'
     df['Regiao / Region'] = df['ISO Code 3'].apply(lambda x: get_country_metadata(x)[0])
@@ -186,10 +186,11 @@ def transform_csv(input_file, output_file):
         'Regiao / Region': 'Região / Region',
     })
     
+    new_df['Quartiles'] = df['World Bank Current Income Classification, 1990-Present']
     
     # Add all the other columns
     new_df['Area'] = 'N/A'
-    new_df['Quartiles - Eco Free'] = 'N/A'
+    # new_df['Quartiles - Eco Free'] = 'N/A'
     new_df['Rank - World'] = 'N/A'
     new_df['Quartile'] = 'N/A'
     new_df['Rank'] = 'N/A'
@@ -211,7 +212,7 @@ def transform_csv(input_file, output_file):
         'Research Code',
         'Research',
         'Indice / Index - Discrete',
-        'Quartiles - Eco Free',
+        'Quartiles',
         'Rank - World',
         'Quartile',
         'Rank',
@@ -263,7 +264,7 @@ def get_area(research_code):
 result_df['Area'] = result_df['Research Code'].apply(get_area)
 
 # Save the final transformed data
-# result_df.to_csv('transformed_data_with_areas.csv', index=False)
+result_df.to_csv('transformed_data.csv', index=False)
 
 # save the first 1000 rows of the transformed data
 result_df.head(1000).to_csv('transformed_data_Leite.csv', index=False)
