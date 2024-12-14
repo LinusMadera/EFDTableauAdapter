@@ -1,5 +1,9 @@
 import pandas as pd
 import numpy as np
+import pycountry
+import country_converter as coco
+from typing import Tuple
+import pycountry_convert as pc
 
 # Load both CSV files, skipping initial empty rows
 df_areas = pd.read_csv('areas.csv')
@@ -25,19 +29,61 @@ df_combined = pd.merge(
 # Now df_combined has both the detailed metrics and all Area values from areas.csv
 # We can use df_combined['Area 1'] through df_combined['Area 5'] instead of calculating them from components
 
+def get_country_metadata(iso3_code: str) -> Tuple[str, str, str]:
+    """
+    Gets region and subregion data using pycountry_convert.
+    Returns (region, subregion, state) in Portuguese
+    """
+    try:
+        # Convert ISO3 to ISO2 (pycountry_convert uses ISO2)
+        country_2_code = pc.country_alpha3_to_country_alpha2(iso3_code)
+        
+        # Get continent code and convert to continent name
+        continent_code = pc.country_alpha2_to_continent_code(country_2_code)
+        region_raw = pc.convert_continent_code_to_continent_name(continent_code)
+        
+        # Get UN region (we'll use this as subregion)
+        subregion = pc.country_alpha2_to_country_region(country_2_code)
+        
+        # Portuguese translations for continents
+        region_translations = {
+            'Europe': 'Europa',
+            'Asia': 'Ásia',
+            'Africa': 'África',
+            'North America': 'América do Norte',
+            'South America': 'América do Sul',
+            'Oceania': 'Oceania',
+            'Antarctica': 'Antártida'
+        }
+        
+        return (
+            region_translations.get(region_raw, region_raw),
+            subregion,
+            'Estado'  # Default state value
+        )
+    except:
+        return ('N/A', 'N/A', 'N/A')
+
 def transform_csv(input_file, output_file):
     # Read the main data, skipping header rows
     df = df_combined
     
-    # Create dataframes - one for each metric
-    dataframes = []
+    # Add the region/subregion columns first
+    df['Language1'] = 'English'
+    df['Regiao / Region'] = df['ISO Code 3'].apply(lambda x: get_country_metadata(x)[0])
+    df['Subregiao / Subregion'] = df['ISO Code 3'].apply(lambda x: get_country_metadata(x)[1])
+    df['State'] = df['ISO Code 3'].apply(lambda x: get_country_metadata(x)[2])
     
-    # Base columns to copy for all dataframes
+    # Base columns to copy for all dataframes - NOW INCLUDING THE NEW COLUMNS
     base_columns = [
-        'Year', 
+        'Year',
+        'Language1',
+        'Regiao / Region',
+        'Subregiao / Subregion',
         'ISO Code 2', 
         'ISO Code 3', 
-        'Countries', 
+        'Countries',
+        'State',
         ' Economic Freedom Summary Index',
         'Rank', 
         'Quartile'
@@ -99,6 +145,9 @@ def transform_csv(input_file, output_file):
         ('N', 'Quartile', 'Quartile')
     ]
     
+    # Create dataframes - one for each metric
+    dataframes = []
+    
     for research_id, research_name, value_column in metrics:
         # Create a new dataframe with base columns
         temp_df = df[base_columns].copy()
@@ -129,23 +178,54 @@ def transform_csv(input_file, output_file):
     new_df = new_df.dropna(subset=['Year', 'Index - Continuous'])
     new_df['Year'] = new_df['Year'].astype(int)
     
-    # Reorder columns to match desired output
+    # First rename the columns
+    new_df = new_df.rename(columns={
+        'Year': 'Ano/Year',
+        'Countries': 'País / Country',
+        'Index - Continuous': 'indexValue - Continuous',
+        'Research ID': 'Research Code',
+        'Regiao / Region': 'Região / Region',
+        'Subregiao / Subregion': 'Subregião / Subregion'
+    })
+    
+    # Add all the new columns
+    new_df['Area'] = 'N/A'
+    new_df['Quartiles - Eco Free'] = 'N/A'
+    new_df['Rank - World'] = 'N/A'
+    new_df['Quartile'] = 'N/A'
+    new_df['Rank'] = 'N/A'
+    new_df['Quartil / Quartile'] = 'N/A'
+    new_df['Área / Area'] = 'N/A'
+    
+    # Add the discrete index column (truncated to 2 decimals)
+    new_df['Indice / Index - Discrete'] = new_df['indexValue - Continuous'].round(2)
+    
+    # Then update the final column order
     column_order = [
-        'Year',
-        'ISO Code 2',
-        'ISO Code 3',
-        'Countries',
-        ' Economic Freedom Summary Index',
-        'Rank',
-        'Quartile',
-        'Research ID',
+        'Language1',
+        'Ano/Year',
+        'Região / Region',
+        'Subregião / Subregion',
+        'País / Country',
+        'State',
+        'Area',
+        'Research Code',
         'Research',
-        'Index - Continuous'
+        'Indice / Index - Discrete',
+        'Quartiles - Eco Free',
+        'Rank - World',
+        'Quartile',
+        'Rank',
+        'Quartil / Quartile',
+        'Área / Area',
+        'indexValue - Continuous'
     ]
+    
+    # Now reorder
     new_df = new_df[column_order]
     
-    # Sort by Year, Country, and Research ID
-    new_df = new_df.sort_values(['Year', 'Countries', 'Research ID'])
+    # Sort using the new column names
+    new_df = new_df.sort_values(['Ano/Year', 'País / Country', 'Research Code'])
     
     # Save to new CSV file
     new_df.to_csv(output_file, index=False)
