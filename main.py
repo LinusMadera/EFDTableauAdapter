@@ -236,8 +236,42 @@ input_file = 'csvsample.csv'
 output_file = 'transformed_data.csv'
 result_df = transform_csv(input_file, output_file)
 
+# Define function to determine area based on Research Code
+def get_area(research_code):
+    if pd.isna(research_code):
+        return 'Economic Freedom Summary Index'
+    
+    research_code = str(research_code)  # Convert to string to ensure string methods work
+    
+    # Look for any occurrence of these numbers in the code
+    area_mapping = {
+        '1': 'Size of Government',
+        '2': 'Legal System & Property Rights',
+        '3': 'Sound Money',
+        '4': 'Freedom to trade internationally',
+        '5': 'Regulation'
+    }
+    
+    # Check for any of the numbers anywhere in the code
+    for number, area in area_mapping.items():
+        if number in research_code:
+            return area
+    
+    return 'Economic Freedom Summary Index'
+
+# Apply the area rules
+result_df['Area'] = result_df['Research Code'].apply(get_area)
+
+# Save the final transformed data
+# result_df.to_csv('transformed_data_with_areas.csv', index=False)
+
 # save the first 1000 rows of the transformed data
 result_df.head(1000).to_csv('transformed_data_Leite.csv', index=False)
 
+# Print verification info
 print("\nTransformed data:")
 print(result_df.head())
+print("\nUnique areas in the dataset:")
+print(result_df['Area'].unique())
+print("\nSample of the Research Code and Area mapping:")
+print(result_df[['Research Code', 'Area']].head(10))
