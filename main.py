@@ -67,9 +67,8 @@ def get_country_metadata(iso3_code: str) -> Tuple[str, str, str]:
 def transform_csv(input_file, output_file):
     # Read the main data
     df = df_combined
-    df['Quartiles'] = 'N/A'
     df['Subregião / Subregion'] = df['World Bank Region']
-    df['Quartiles'] = df['World Bank Current Income Classification, 1990-Present']
+    df['Quartil - Eco Free'] = df['World Bank Current Income Classification, 1990-Present']
     # Now add other base columns
     df['Language1'] = 'English'
     df['Regiao / Region'] = df['ISO Code 3'].apply(lambda x: get_country_metadata(x)[0])
@@ -85,7 +84,8 @@ def transform_csv(input_file, output_file):
         'State',
         ' Economic Freedom Summary Index',
         'Rank', 
-        'Quartile'
+        'Quartile',
+        'Quartil - Eco Free'
     ]
     
     # Create the different metric dataframes
@@ -190,7 +190,7 @@ def transform_csv(input_file, output_file):
     
     # Add all the other columns
     new_df['Area'] = 'N/A'
-    # new_df['Quartiles - Eco Free'] = 'N/A'
+    # new_df['Quartil - Eco Free Free'] = 'N/A'
     new_df['Rank - World'] = 'N/A'
     new_df['Quartile'] = 'N/A'
     new_df['Rank'] = 'N/A'
@@ -212,7 +212,7 @@ def transform_csv(input_file, output_file):
         'Research Code',
         'Research',
         'Indice / Index - Discrete',
-        'Quartiles',
+        'Quartil - Eco Free',
         'Rank - World',
         'Quartile',
         'Rank',
