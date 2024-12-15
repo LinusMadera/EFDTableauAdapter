@@ -69,6 +69,8 @@ def transform_csv(input_file, output_file):
     df = df_combined
     df['Subregião / Subregion'] = df['World Bank Region']
     df['Quartil - Eco Free'] = df['World Bank Current Income Classification, 1990-Present']
+    df['Rank - World'] = df['Rank']
+    df['Rank'] = df['Rank']
     # Now add other base columns
     df['Language1'] = 'English'
     df['Regiao / Region'] = df['ISO Code 3'].apply(lambda x: get_country_metadata(x)[0])
@@ -85,7 +87,8 @@ def transform_csv(input_file, output_file):
         ' Economic Freedom Summary Index',
         'Rank', 
         'Quartile',
-        'Quartil - Eco Free'
+        'Quartil - Eco Free',
+        'Rank - World'
     ]
     
     # Create the different metric dataframes
@@ -187,13 +190,15 @@ def transform_csv(input_file, output_file):
     })
     
     new_df['Quartiles'] = df['World Bank Current Income Classification, 1990-Present']
-    
+    # new_df['Rank - World'] = df['Rank']
+    # new_df['Rank'] = df['Rank']
+
     # Add all the other columns
     new_df['Area'] = 'N/A'
     # new_df['Quartil - Eco Free Free'] = 'N/A'
-    new_df['Rank - World'] = 'N/A'
+    # new_df['Rank - World'] = 'N/A'
     new_df['Quartile'] = 'N/A'
-    new_df['Rank'] = 'N/A'
+    # new_df['Rank'] = 'N/A'
     new_df['Quartil / Quartile'] = 'N/A'
     new_df['Área / Area'] = 'N/A'
     
