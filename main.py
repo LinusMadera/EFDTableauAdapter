@@ -63,6 +63,42 @@ def get_country_metadata(iso3_code: str) -> Tuple[str, str, str]:
         )
     except:
         return ('N/A', 'N/A', 'N/A')
+    
+def get_regiao_from_subregion(subregion, country):
+    """
+    Maps World Bank regions to Portuguese continental regions
+    """
+    if pd.isna(subregion):
+        return 'N/A'
+        
+    subregion = str(subregion).lower()
+    country = str(country).lower()
+    
+    regiao = 'N/A'
+    
+    # Check main regions first (more common cases)
+    if 'east asia' in subregion or 'pacific' in subregion or 'south asia' in subregion:
+        regiao = 'Ásia'
+    elif 'europe' in subregion:
+        regiao = 'Europa'
+    elif 'latin america' in subregion or 'north america' in subregion or 'caribbean' in subregion:
+        regiao = 'América'
+    elif 'sub-saharan africa' in subregion or 'middle east' in subregion or 'north africa' in subregion:
+        regiao = 'África'
+    
+    # Check Oceania last (less common case)
+    oceania_countries = {
+        'australia', 'new zealand', 'fiji', 'papua new guinea', 
+        'solomon islands', 'vanuatu', 'new caledonia', 'french polynesia',
+        'samoa', 'tonga', 'micronesia', 'kiribati', 'palau', 'marshall islands',
+        'nauru', 'tuvalu', 'cook islands', 'niue', 'tokelau', 'wallis and futuna',
+        'american samoa', 'guam', 'northern mariana islands'
+    }
+    
+    if any(c in country for c in oceania_countries):
+        regiao = 'Oceania'
+    
+    return regiao
 
 def transform_csv(input_file, output_file):
     # Read the main data
@@ -71,9 +107,10 @@ def transform_csv(input_file, output_file):
     df['Quartil - Eco Free'] = df['World Bank Current Income Classification, 1990-Present']
     df['Rank - World'] = df['Rank']
     df['Rank'] = df['Rank']
+
+    df['Regiao / Region'] = df.apply(lambda x: get_regiao_from_subregion(x['Subregião / Subregion'], x['Countries']), axis=1)
     # Now add other base columns
     df['Language1'] = 'English'
-    df['Regiao / Region'] = df['ISO Code 3'].apply(lambda x: get_country_metadata(x)[0])
     df['State'] = df['ISO Code 3'].apply(lambda x: get_country_metadata(x)[2])
     
     # Base columns that will be used for each research metric
