@@ -1,9 +1,5 @@
 import pandas as pd
 import numpy as np
-import pycountry
-import country_converter as coco
-from typing import Tuple
-import pycountry_convert as pc
 import tkinter as tk
 from tkinter import messagebox
 
