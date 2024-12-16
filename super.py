@@ -264,11 +264,24 @@ class TransformationGUI:
         main_frame = tk.Frame(root, padx=20, pady=20)
         main_frame.pack(expand=True)
         
-        step1_label = tk.Label(main_frame,
+        step1_frame = tk.Frame(main_frame)
+        step1_frame.pack(pady=10)
+        
+        step1_label = tk.Label(step1_frame,
                              text="Passo 1: Abra o site economic freedom e baixe o xlsx",
                              font=("Arial", 10),
                              wraplength=400)
-        step1_label.pack(pady=10)
+        step1_label.pack(side=tk.LEFT, pady=5)
+        
+        def open_link():
+            import webbrowser
+            webbrowser.open('https://efotw.org/economic-freedom/dataset?geozone=world&year=2022&page=dataset&min-year=2&max-year=0&filter=0')
+        
+        link_button = tk.Button(step1_frame,
+                              text="Abrir Site",
+                              command=open_link,
+                              font=("Arial", 10))
+        link_button.pack(side=tk.LEFT, padx=5)
         
         step2_label = tk.Label(main_frame,
                              text="Passo 2: Selecione o arquivo no selecionador abaixo",
@@ -318,7 +331,7 @@ class TransformationGUI:
         self.transform_button.pack(pady=5)
         
         step5_label = tk.Label(main_frame,
-                             text="Passo 5: Abra o tableau Public instalado na maquina, navegue até Fonte de Dados, e importe o arquivo 'Sheet1' como fonte de dados",
+                             text="Passo 5: Abra o tableau Public instalado na maquina, navegue até a aba 'Fonte de Dados', e importe o arquivo 'Sheet1' como fonte de dados",
                              font=("Arial", 10),
                              wraplength=400)
         step5_label.pack(pady=10)
