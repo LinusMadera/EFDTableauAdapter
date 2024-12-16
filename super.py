@@ -386,7 +386,7 @@ class TransformationGUI:
             
             result_df['Area'] = result_df['Research Code'].apply(get_area)
             
-            result_df.to_csv('Sheet1.xlsx', index=False)
+            result_df.to_excel('Sheet1.xlsx', index=False)
             
             # Delete auxiliary files
             import os
