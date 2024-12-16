@@ -1,9 +1,5 @@
 import pandas as pd
 import numpy as np
-import pycountry
-import country_converter as coco
-from typing import Tuple
-import pycountry_convert as pc
 import tkinter as tk
 from tkinter import messagebox
 
@@ -322,7 +318,7 @@ class TransformationGUI:
         self.transform_button.pack(pady=5)
         
         step5_label = tk.Label(main_frame,
-                             text="Passo 5: Abra o tableau e importe o arquivo 'Sheet1' como fonte de dados",
+                             text="Passo 5: Abra o tableau Public instalado na maquina, navegue até Fonte de Dados, e importe o arquivo 'Sheet1' como fonte de dados",
                              font=("Arial", 10),
                              wraplength=400)
         step5_label.pack(pady=10)
